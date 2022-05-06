@@ -1,0 +1,1207 @@
+[2021-06-11 10:17:58,535] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:17:58,535] - test_log.py] - INFO: case 13:参数传入为：100个字符长度数据
+[2021-06-11 10:17:58,654] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:17:58,655] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:17:58,655] - test_log.py] - INFO: case 14:参数传入为：101个字符长度数据
+[2021-06-11 10:17:58,759] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:17:58,760] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:17:58,760] - test_log.py] - INFO: case 15:参数传入为：23个字符长度数据
+[2021-06-11 10:17:58,870] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:17:58,870] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:17:58,870] - test_log.py] - INFO: case 16:参数传入为：中文
+[2021-06-11 10:17:58,971] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:17:58,972] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:17:58,972] - test_log.py] - INFO: case 9:参数传入为空格
+[2021-06-11 10:17:59,069] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:17:59,070] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:17:59,070] - test_log.py] - INFO: case 17:参数传入为：' or 1<> '1
+[2021-06-11 10:17:59,166] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:17:59,166] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:17:59,166] - test_log.py] - INFO: case 18:参数传入为：<script>alert("123");</script>
+[2021-06-11 10:17:59,274] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:17:59,274] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:17:59,274] - test_log.py] - INFO: case 18:参数传入为：' ' or '1' = '1
+[2021-06-11 10:17:59,376] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:17:59,376] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:17:59,376] - test_log.py] - INFO: case 18:参数传入为：' or '1'<> '2
+[2021-06-11 10:17:59,474] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:17:59,474] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:17:59,475] - test_log.py] - INFO: case 18:参数传入为：@&%……
+[2021-06-11 10:17:59,571] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:17:59,571] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:17:59,571] - test_log.py] - INFO: case 4:传入的ID比实际少一位
+[2021-06-11 10:17:59,664] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:17:59,664] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:17:59,665] - test_log.py] - INFO: case 3:长字符串
+[2021-06-11 10:17:59,752] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:17:59,753] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:17:59,753] - test_log.py] - INFO: case 5:传入的ID比实际多一位
+[2021-06-11 10:17:59,849] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:17:59,849] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:17:59,849] - test_log.py] - INFO: case 7:参数传入为空
+[2021-06-11 10:17:59,925] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:17:59,925] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:17:59,925] - test_log.py] - INFO: case 10:参数传入为：None
+[2021-06-11 10:17:59,985] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-11 10:17:59,985] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:17:59,986] - test_log.py] - INFO: case 6:传入的不存在的ID
+[2021-06-11 10:18:00,093] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:18:00,094] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:18:00,094] - test_log.py] - INFO: case 11:参数传入为：'NULL'
+[2021-06-11 10:18:00,217] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:18:00,217] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:18:00,218] - test_log.py] - INFO: case 12:参数传入为：'null'
+[2021-06-11 10:18:00,313] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:18:00,313] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-11 10:18:00,423] - test_log.py] - INFO: (200, {'data': [{'callTime': 1617956018946, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18910491046', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '易宝支付有限公司'}, {'callTime': 1617955957623, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18929653027', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '广东联泰房地产有限公司'}, {'callTime': 1617955901738, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13621192346', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '北京海原德贸信息技术有限公司'}], 'total': 4})
+[2021-06-11 10:18:00,423] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:18:00,423] - test_log.py] - INFO: case 8:传入特殊字符串
+[2021-06-11 10:18:00,521] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:18:00,521] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:18:00,521] - test_log.py] - INFO: case 2:一次传递两个ID
+[2021-06-11 10:18:00,616] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:20:52,215] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:20:52,216] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-11 10:20:52,346] - test_log.py] - INFO: (200, {'data': [{'callTime': 1617956018946, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18910491046', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '易宝支付有限公司'}, {'callTime': 1617955957623, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18929653027', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '广东联泰房地产有限公司'}, {'callTime': 1617955901738, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13621192346', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '北京海原德贸信息技术有限公司'}], 'total': 4})
+[2021-06-11 10:22:47,373] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:22:47,373] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-11 10:22:47,495] - test_log.py] - INFO: (200, {'data': [{'callTime': 1617956018946, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18910491046', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '易宝支付有限公司'}, {'callTime': 1617955957623, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18929653027', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '广东联泰房地产有限公司'}, {'callTime': 1617955901738, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13621192346', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '北京海原德贸信息技术有限公司'}], 'total': 4})
+[2021-06-11 10:25:13,494] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:25:13,494] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-11 10:25:13,662] - test_log.py] - INFO: (200, {'data': [{'callTime': 1617956018946, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18910491046', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '易宝支付有限公司'}, {'callTime': 1617955957623, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18929653027', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '广东联泰房地产有限公司'}, {'callTime': 1617955901738, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13621192346', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '北京海原德贸信息技术有限公司'}], 'total': 4})
+[2021-06-11 10:26:25,329] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:26:25,330] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-11 10:26:25,451] - test_log.py] - INFO: (200, {'data': [{'callTime': 1617956018946, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18910491046', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '易宝支付有限公司'}, {'callTime': 1617955957623, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18929653027', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '广东联泰房地产有限公司'}, {'callTime': 1617955901738, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13621192346', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '北京海原德贸信息技术有限公司'}], 'total': 4})
+[2021-06-11 10:26:36,634] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:26:36,634] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-11 10:26:36,800] - test_log.py] - INFO: (200, {'data': [{'callTime': 1617956018946, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18910491046', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '易宝支付有限公司'}, {'callTime': 1617955957623, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18929653027', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '广东联泰房地产有限公司'}, {'callTime': 1617955901738, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13621192346', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '北京海原德贸信息技术有限公司'}], 'total': 4})
+[2021-06-11 10:26:47,256] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:26:47,256] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-11 10:26:47,389] - test_log.py] - INFO: (200, {'data': [{'callTime': 1617956018946, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18910491046', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '易宝支付有限公司'}, {'callTime': 1617955957623, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18929653027', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '广东联泰房地产有限公司'}, {'callTime': 1617955901738, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13621192346', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '北京海原德贸信息技术有限公司'}], 'total': 4})
+[2021-06-11 10:27:20,130] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:27:20,130] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-11 10:27:20,257] - test_log.py] - INFO: (200, {'data': [{'callTime': 1617956082279, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13706264226', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '昆山市周庄镇王亿服饰辅料厂'}, {'callTime': 1617956018946, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18910491046', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '易宝支付有限公司'}, {'callTime': 1617955957623, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18929653027', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '广东联泰房地产有限公司'}, {'callTime': 1617955901738, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13621192346', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '北京海原德贸信息技术有限公司'}], 'total': 4})
+[2021-06-11 10:36:58,844] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:36:58,844] - test_log.py] - INFO: case 13:参数传入为：100个字符长度数据
+[2021-06-11 10:36:58,972] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:36:58,973] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:36:58,973] - test_log.py] - INFO: case 14:参数传入为：101个字符长度数据
+[2021-06-11 10:36:59,044] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:36:59,045] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:36:59,045] - test_log.py] - INFO: case 15:参数传入为：23个字符长度数据
+[2021-06-11 10:36:59,143] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:36:59,144] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:36:59,144] - test_log.py] - INFO: case 16:参数传入为：中文
+[2021-06-11 10:36:59,242] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:36:59,243] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:36:59,243] - test_log.py] - INFO: case 9:参数传入为空格
+[2021-06-11 10:36:59,333] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:36:59,334] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:36:59,334] - test_log.py] - INFO: case 17:参数传入为：' or 1<> '1
+[2021-06-11 10:36:59,432] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:36:59,433] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:36:59,433] - test_log.py] - INFO: case 18:参数传入为：<script>alert("123");</script>
+[2021-06-11 10:36:59,526] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:36:59,527] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:36:59,527] - test_log.py] - INFO: case 18:参数传入为：' ' or '1' = '1
+[2021-06-11 10:36:59,632] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:36:59,633] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:36:59,633] - test_log.py] - INFO: case 18:参数传入为：' or '1'<> '2
+[2021-06-11 10:36:59,736] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:36:59,737] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:36:59,737] - test_log.py] - INFO: case 18:参数传入为：@&%……
+[2021-06-11 10:36:59,838] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:36:59,839] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:36:59,839] - test_log.py] - INFO: case 4:传入的ID比实际少一位
+[2021-06-11 10:36:59,953] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:36:59,954] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:36:59,954] - test_log.py] - INFO: case 3:长字符串
+[2021-06-11 10:37:00,024] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:37:00,025] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:37:00,025] - test_log.py] - INFO: case 5:传入的ID比实际多一位
+[2021-06-11 10:37:00,132] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:37:00,133] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:37:00,133] - test_log.py] - INFO: case 7:参数传入为空
+[2021-06-11 10:37:00,209] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:37:00,210] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:37:00,210] - test_log.py] - INFO: case 10:参数传入为：None
+[2021-06-11 10:37:00,270] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-11 10:37:00,271] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:37:00,271] - test_log.py] - INFO: case 6:传入的不存在的ID
+[2021-06-11 10:37:00,373] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:37:00,374] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:37:00,374] - test_log.py] - INFO: case 11:参数传入为：'NULL'
+[2021-06-11 10:37:00,496] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:37:00,497] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:37:00,497] - test_log.py] - INFO: case 12:参数传入为：'null'
+[2021-06-11 10:37:00,597] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:37:00,598] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:37:00,598] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-11 10:37:00,719] - test_log.py] - INFO: (200, {'data': [{'callTime': 1617956082279, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13706264226', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '昆山市周庄镇王亿服饰辅料厂'}, {'callTime': 1617956018946, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18910491046', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '易宝支付有限公司'}, {'callTime': 1617955957623, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18929653027', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '广东联泰房地产有限公司'}, {'callTime': 1617955901738, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13621192346', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '北京海原德贸信息技术有限公司'}], 'total': 4})
+[2021-06-11 10:37:00,719] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:37:00,719] - test_log.py] - INFO: case 8:传入特殊字符串
+[2021-06-11 10:37:00,817] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:37:00,817] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:37:00,817] - test_log.py] - INFO: case 2:一次传递两个ID
+[2021-06-11 10:37:01,038] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:37:58,549] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:37:58,550] - test_log.py] - INFO: case 13:参数传入为：100个字符长度数据
+[2021-06-11 10:37:58,662] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:37:58,662] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:37:58,663] - test_log.py] - INFO: case 14:参数传入为：101个字符长度数据
+[2021-06-11 10:37:58,734] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:37:58,735] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:37:58,735] - test_log.py] - INFO: case 15:参数传入为：23个字符长度数据
+[2021-06-11 10:37:58,830] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:37:58,830] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:37:58,830] - test_log.py] - INFO: case 16:参数传入为：中文
+[2021-06-11 10:37:58,937] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:37:58,938] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:37:58,938] - test_log.py] - INFO: case 9:参数传入为空格
+[2021-06-11 10:37:59,047] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:37:59,048] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:37:59,048] - test_log.py] - INFO: case 17:参数传入为：' or 1<> '1
+[2021-06-11 10:37:59,137] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:37:59,138] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:37:59,138] - test_log.py] - INFO: case 18:参数传入为：<script>alert("123");</script>
+[2021-06-11 10:37:59,236] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:37:59,236] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:37:59,236] - test_log.py] - INFO: case 18:参数传入为：' ' or '1' = '1
+[2021-06-11 10:37:59,329] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:37:59,331] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:37:59,331] - test_log.py] - INFO: case 18:参数传入为：' or '1'<> '2
+[2021-06-11 10:37:59,426] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:37:59,427] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:37:59,427] - test_log.py] - INFO: case 18:参数传入为：@&%……
+[2021-06-11 10:37:59,518] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:37:59,518] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:37:59,518] - test_log.py] - INFO: case 4:传入的ID比实际少一位
+[2021-06-11 10:37:59,615] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:37:59,615] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:37:59,616] - test_log.py] - INFO: case 3:长字符串
+[2021-06-11 10:37:59,697] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:37:59,698] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:37:59,698] - test_log.py] - INFO: case 5:传入的ID比实际多一位
+[2021-06-11 10:37:59,803] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:37:59,804] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:37:59,804] - test_log.py] - INFO: case 7:参数传入为空
+[2021-06-11 10:37:59,896] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:37:59,897] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:37:59,897] - test_log.py] - INFO: case 10:参数传入为：None
+[2021-06-11 10:37:59,953] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-11 10:37:59,953] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:37:59,954] - test_log.py] - INFO: case 6:传入的不存在的ID
+[2021-06-11 10:38:00,070] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:38:00,070] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:38:00,070] - test_log.py] - INFO: case 11:参数传入为：'NULL'
+[2021-06-11 10:38:00,184] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:38:00,185] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:38:00,185] - test_log.py] - INFO: case 12:参数传入为：'null'
+[2021-06-11 10:38:00,282] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:38:00,283] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:38:00,283] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-11 10:38:00,402] - test_log.py] - INFO: (200, {'data': [{'callTime': 1617956082279, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13706264226', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '昆山市周庄镇王亿服饰辅料厂'}, {'callTime': 1617956018946, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18910491046', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '易宝支付有限公司'}, {'callTime': 1617955957623, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18929653027', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '广东联泰房地产有限公司'}, {'callTime': 1617955901738, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13621192346', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '北京海原德贸信息技术有限公司'}], 'total': 4})
+[2021-06-11 10:38:00,403] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:38:00,403] - test_log.py] - INFO: case 8:传入特殊字符串
+[2021-06-11 10:38:00,524] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:38:00,524] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:38:00,524] - test_log.py] - INFO: case 2:一次传递两个ID
+[2021-06-11 10:38:00,617] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:39:19,467] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:19,468] - test_log.py] - INFO: case 13:参数传入为：100个字符长度数据
+[2021-06-11 10:39:19,590] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:39:19,591] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:19,591] - test_log.py] - INFO: case 14:参数传入为：101个字符长度数据
+[2021-06-11 10:39:19,661] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:39:19,662] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:19,662] - test_log.py] - INFO: case 15:参数传入为：23个字符长度数据
+[2021-06-11 10:39:19,772] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:39:19,773] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:19,773] - test_log.py] - INFO: case 16:参数传入为：中文
+[2021-06-11 10:39:19,870] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:39:19,870] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:19,870] - test_log.py] - INFO: case 9:参数传入为空格
+[2021-06-11 10:39:19,970] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:39:19,971] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:19,971] - test_log.py] - INFO: case 17:参数传入为：' or 1<> '1
+[2021-06-11 10:39:20,072] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:39:20,072] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:20,073] - test_log.py] - INFO: case 18:参数传入为：<script>alert("123");</script>
+[2021-06-11 10:39:20,168] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:39:20,169] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:20,169] - test_log.py] - INFO: case 18:参数传入为：' ' or '1' = '1
+[2021-06-11 10:39:20,268] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:39:20,269] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:20,269] - test_log.py] - INFO: case 18:参数传入为：' or '1'<> '2
+[2021-06-11 10:39:20,366] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:39:20,367] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:20,367] - test_log.py] - INFO: case 18:参数传入为：@&%……
+[2021-06-11 10:39:20,478] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:39:20,479] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:20,479] - test_log.py] - INFO: case 4:传入的ID比实际少一位
+[2021-06-11 10:39:20,589] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:39:20,590] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:20,590] - test_log.py] - INFO: case 3:长字符串
+[2021-06-11 10:39:20,661] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:39:20,662] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:20,662] - test_log.py] - INFO: case 5:传入的ID比实际多一位
+[2021-06-11 10:39:20,753] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:39:20,754] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:20,754] - test_log.py] - INFO: case 7:参数传入为空
+[2021-06-11 10:39:20,823] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:39:20,825] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:20,825] - test_log.py] - INFO: case 10:参数传入为：None
+[2021-06-11 10:39:20,888] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-11 10:39:20,888] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:20,888] - test_log.py] - INFO: case 6:传入的不存在的ID
+[2021-06-11 10:39:20,987] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:39:20,988] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:20,988] - test_log.py] - INFO: case 11:参数传入为：'NULL'
+[2021-06-11 10:39:21,089] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:39:21,090] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:21,090] - test_log.py] - INFO: case 12:参数传入为：'null'
+[2021-06-11 10:39:21,194] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:39:21,195] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:21,195] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-11 10:39:21,304] - test_log.py] - INFO: (200, {'data': [{'callTime': 1617956082279, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13706264226', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '昆山市周庄镇王亿服饰辅料厂'}, {'callTime': 1617956018946, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18910491046', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '易宝支付有限公司'}, {'callTime': 1617955957623, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18929653027', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '广东联泰房地产有限公司'}, {'callTime': 1617955901738, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13621192346', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '北京海原德贸信息技术有限公司'}], 'total': 4})
+[2021-06-11 10:39:21,305] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:21,305] - test_log.py] - INFO: case 8:传入特殊字符串
+[2021-06-11 10:39:21,407] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:39:21,408] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:21,408] - test_log.py] - INFO: case 2:一次传递两个ID
+[2021-06-11 10:39:21,524] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:39:55,956] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:55,956] - test_log.py] - INFO: case 13:参数传入为：100个字符长度数据
+[2021-06-11 10:39:56,080] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:39:56,081] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:56,081] - test_log.py] - INFO: case 14:参数传入为：101个字符长度数据
+[2021-06-11 10:39:56,149] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:39:56,149] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:56,149] - test_log.py] - INFO: case 15:参数传入为：23个字符长度数据
+[2021-06-11 10:39:56,249] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:39:56,250] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:56,250] - test_log.py] - INFO: case 16:参数传入为：中文
+[2021-06-11 10:39:56,354] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:39:56,355] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:56,355] - test_log.py] - INFO: case 9:参数传入为空格
+[2021-06-11 10:39:56,453] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:39:56,453] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:56,454] - test_log.py] - INFO: case 17:参数传入为：' or 1<> '1
+[2021-06-11 10:39:56,559] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:39:56,560] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:56,560] - test_log.py] - INFO: case 18:参数传入为：<script>alert("123");</script>
+[2021-06-11 10:39:56,668] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:39:56,669] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:56,669] - test_log.py] - INFO: case 18:参数传入为：' ' or '1' = '1
+[2021-06-11 10:39:56,771] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:39:56,772] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:56,772] - test_log.py] - INFO: case 18:参数传入为：' or '1'<> '2
+[2021-06-11 10:39:56,867] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:39:56,868] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:56,868] - test_log.py] - INFO: case 18:参数传入为：@&%……
+[2021-06-11 10:39:56,964] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:39:56,965] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:56,965] - test_log.py] - INFO: case 4:传入的ID比实际少一位
+[2021-06-11 10:39:57,060] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:39:57,061] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:57,061] - test_log.py] - INFO: case 3:长字符串
+[2021-06-11 10:39:57,151] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:39:57,152] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:57,152] - test_log.py] - INFO: case 5:传入的ID比实际多一位
+[2021-06-11 10:39:57,258] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:39:57,258] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:57,259] - test_log.py] - INFO: case 7:参数传入为空
+[2021-06-11 10:39:57,324] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:39:57,325] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:57,325] - test_log.py] - INFO: case 10:参数传入为：None
+[2021-06-11 10:39:57,393] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-11 10:39:57,393] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:57,393] - test_log.py] - INFO: case 6:传入的不存在的ID
+[2021-06-11 10:39:57,485] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:39:57,486] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:57,486] - test_log.py] - INFO: case 11:参数传入为：'NULL'
+[2021-06-11 10:39:57,587] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:39:57,587] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:57,588] - test_log.py] - INFO: case 12:参数传入为：'null'
+[2021-06-11 10:39:57,681] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:39:57,682] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:57,682] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-11 10:39:57,790] - test_log.py] - INFO: (200, {'data': [{'callTime': 1617956082279, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13706264226', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '昆山市周庄镇王亿服饰辅料厂'}, {'callTime': 1617956018946, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18910491046', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '易宝支付有限公司'}, {'callTime': 1617955957623, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18929653027', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '广东联泰房地产有限公司'}, {'callTime': 1617955901738, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13621192346', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '北京海原德贸信息技术有限公司'}], 'total': 4})
+[2021-06-11 10:39:57,791] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:57,791] - test_log.py] - INFO: case 8:传入特殊字符串
+[2021-06-11 10:39:57,888] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:39:57,889] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:39:57,889] - test_log.py] - INFO: case 2:一次传递两个ID
+[2021-06-11 10:39:57,976] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:40:10,761] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:10,761] - test_log.py] - INFO: case 13:参数传入为：100个字符长度数据
+[2021-06-11 10:40:10,887] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:40:10,887] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:10,887] - test_log.py] - INFO: case 14:参数传入为：101个字符长度数据
+[2021-06-11 10:40:10,961] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:40:10,962] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:10,962] - test_log.py] - INFO: case 15:参数传入为：23个字符长度数据
+[2021-06-11 10:40:11,065] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:40:11,066] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:11,066] - test_log.py] - INFO: case 16:参数传入为：中文
+[2021-06-11 10:40:11,186] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:40:11,186] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:11,187] - test_log.py] - INFO: case 9:参数传入为空格
+[2021-06-11 10:40:11,294] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:40:11,295] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:11,295] - test_log.py] - INFO: case 17:参数传入为：' or 1<> '1
+[2021-06-11 10:40:11,404] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:40:11,405] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:11,405] - test_log.py] - INFO: case 18:参数传入为：<script>alert("123");</script>
+[2021-06-11 10:40:11,507] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:40:11,508] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:11,508] - test_log.py] - INFO: case 18:参数传入为：' ' or '1' = '1
+[2021-06-11 10:40:11,612] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:40:11,612] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:11,612] - test_log.py] - INFO: case 18:参数传入为：' or '1'<> '2
+[2021-06-11 10:40:11,725] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:40:11,725] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:11,726] - test_log.py] - INFO: case 18:参数传入为：@&%……
+[2021-06-11 10:40:11,835] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:40:11,836] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:11,836] - test_log.py] - INFO: case 4:传入的ID比实际少一位
+[2021-06-11 10:40:11,931] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:40:11,932] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:11,932] - test_log.py] - INFO: case 3:长字符串
+[2021-06-11 10:40:12,003] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:40:12,004] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:12,004] - test_log.py] - INFO: case 5:传入的ID比实际多一位
+[2021-06-11 10:40:12,099] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:40:12,100] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:12,100] - test_log.py] - INFO: case 7:参数传入为空
+[2021-06-11 10:40:12,168] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:40:12,169] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:12,169] - test_log.py] - INFO: case 10:参数传入为：None
+[2021-06-11 10:40:12,233] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-11 10:40:12,234] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:12,234] - test_log.py] - INFO: case 6:传入的不存在的ID
+[2021-06-11 10:40:12,336] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:40:12,338] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:12,338] - test_log.py] - INFO: case 11:参数传入为：'NULL'
+[2021-06-11 10:40:12,449] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:40:12,450] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:12,450] - test_log.py] - INFO: case 12:参数传入为：'null'
+[2021-06-11 10:40:12,560] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:40:12,561] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:12,561] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-11 10:40:12,663] - test_log.py] - INFO: (200, {'data': [{'callTime': 1617956082279, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13706264226', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '昆山市周庄镇王亿服饰辅料厂'}, {'callTime': 1617956018946, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18910491046', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '易宝支付有限公司'}, {'callTime': 1617955957623, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18929653027', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '广东联泰房地产有限公司'}, {'callTime': 1617955901738, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13621192346', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '北京海原德贸信息技术有限公司'}], 'total': 4})
+[2021-06-11 10:40:12,664] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:12,664] - test_log.py] - INFO: case 8:传入特殊字符串
+[2021-06-11 10:40:12,765] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:40:12,766] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:12,766] - test_log.py] - INFO: case 2:一次传递两个ID
+[2021-06-11 10:40:12,869] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:40:27,047] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:27,048] - test_log.py] - INFO: case 13:参数传入为：100个字符长度数据
+[2021-06-11 10:40:27,161] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:40:27,161] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:27,162] - test_log.py] - INFO: case 14:参数传入为：101个字符长度数据
+[2021-06-11 10:40:27,243] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:40:27,244] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:27,244] - test_log.py] - INFO: case 15:参数传入为：23个字符长度数据
+[2021-06-11 10:40:27,352] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:40:27,353] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:27,353] - test_log.py] - INFO: case 16:参数传入为：中文
+[2021-06-11 10:40:27,451] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:40:27,452] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:27,452] - test_log.py] - INFO: case 9:参数传入为空格
+[2021-06-11 10:40:27,548] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:40:27,549] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:27,549] - test_log.py] - INFO: case 17:参数传入为：' or 1<> '1
+[2021-06-11 10:40:27,648] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:40:27,649] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:27,649] - test_log.py] - INFO: case 18:参数传入为：<script>alert("123");</script>
+[2021-06-11 10:40:27,753] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:40:27,753] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:27,753] - test_log.py] - INFO: case 18:参数传入为：' ' or '1' = '1
+[2021-06-11 10:40:27,849] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:40:27,850] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:27,850] - test_log.py] - INFO: case 18:参数传入为：' or '1'<> '2
+[2021-06-11 10:40:27,945] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:40:27,946] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:27,946] - test_log.py] - INFO: case 18:参数传入为：@&%……
+[2021-06-11 10:40:28,042] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:40:28,043] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:28,043] - test_log.py] - INFO: case 4:传入的ID比实际少一位
+[2021-06-11 10:40:28,149] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:40:28,150] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:28,150] - test_log.py] - INFO: case 3:长字符串
+[2021-06-11 10:40:28,223] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:40:28,224] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:28,224] - test_log.py] - INFO: case 5:传入的ID比实际多一位
+[2021-06-11 10:40:28,331] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:40:28,332] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:28,332] - test_log.py] - INFO: case 7:参数传入为空
+[2021-06-11 10:40:28,402] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:40:28,403] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:28,403] - test_log.py] - INFO: case 10:参数传入为：None
+[2021-06-11 10:40:28,459] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-11 10:40:28,461] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:28,462] - test_log.py] - INFO: case 6:传入的不存在的ID
+[2021-06-11 10:40:28,569] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:40:28,570] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:28,570] - test_log.py] - INFO: case 11:参数传入为：'NULL'
+[2021-06-11 10:40:28,660] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:40:28,661] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:28,661] - test_log.py] - INFO: case 12:参数传入为：'null'
+[2021-06-11 10:40:28,765] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:40:28,766] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:28,766] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-11 10:40:28,866] - test_log.py] - INFO: (200, {'data': [{'callTime': 1617956082279, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13706264226', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '昆山市周庄镇王亿服饰辅料厂'}, {'callTime': 1617956018946, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18910491046', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '易宝支付有限公司'}, {'callTime': 1617955957623, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18929653027', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '广东联泰房地产有限公司'}, {'callTime': 1617955901738, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13621192346', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '北京海原德贸信息技术有限公司'}], 'total': 4})
+[2021-06-11 10:40:28,867] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:28,867] - test_log.py] - INFO: case 8:传入特殊字符串
+[2021-06-11 10:40:28,977] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:40:28,978] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:40:28,978] - test_log.py] - INFO: case 2:一次传递两个ID
+[2021-06-11 10:40:29,067] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:41:45,325] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:45,326] - test_log.py] - INFO: case 13:参数传入为：100个字符长度数据
+[2021-06-11 10:41:45,449] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:41:45,449] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:45,449] - test_log.py] - INFO: case 14:参数传入为：101个字符长度数据
+[2021-06-11 10:41:45,519] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:41:45,520] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:45,520] - test_log.py] - INFO: case 15:参数传入为：23个字符长度数据
+[2021-06-11 10:41:45,731] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:41:45,731] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:45,732] - test_log.py] - INFO: case 16:参数传入为：中文
+[2021-06-11 10:41:45,831] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:41:45,831] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:45,831] - test_log.py] - INFO: case 9:参数传入为空格
+[2021-06-11 10:41:45,933] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:41:45,934] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:45,934] - test_log.py] - INFO: case 17:参数传入为：' or 1<> '1
+[2021-06-11 10:41:46,041] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:41:46,042] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:46,042] - test_log.py] - INFO: case 18:参数传入为：<script>alert("123");</script>
+[2021-06-11 10:41:46,164] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:41:46,165] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:46,165] - test_log.py] - INFO: case 18:参数传入为：' ' or '1' = '1
+[2021-06-11 10:41:46,282] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:41:46,283] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:46,284] - test_log.py] - INFO: case 18:参数传入为：' or '1'<> '2
+[2021-06-11 10:41:46,382] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:41:46,383] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:46,383] - test_log.py] - INFO: case 18:参数传入为：@&%……
+[2021-06-11 10:41:46,494] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:41:46,494] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:46,494] - test_log.py] - INFO: case 4:传入的ID比实际少一位
+[2021-06-11 10:41:46,618] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:41:46,619] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:46,619] - test_log.py] - INFO: case 3:长字符串
+[2021-06-11 10:41:46,695] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:41:46,696] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:46,696] - test_log.py] - INFO: case 5:传入的ID比实际多一位
+[2021-06-11 10:41:46,796] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:41:46,796] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:46,796] - test_log.py] - INFO: case 7:参数传入为空
+[2021-06-11 10:41:46,879] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:41:46,880] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:46,880] - test_log.py] - INFO: case 10:参数传入为：None
+[2021-06-11 10:41:46,935] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-11 10:41:46,936] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:46,936] - test_log.py] - INFO: case 6:传入的不存在的ID
+[2021-06-11 10:41:47,041] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:41:47,042] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:47,042] - test_log.py] - INFO: case 11:参数传入为：'NULL'
+[2021-06-11 10:41:47,151] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:41:47,151] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:47,152] - test_log.py] - INFO: case 12:参数传入为：'null'
+[2021-06-11 10:41:47,251] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:41:47,252] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:47,252] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-11 10:41:47,368] - test_log.py] - INFO: (200, {'data': [{'callTime': 1617956082279, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13706264226', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '昆山市周庄镇王亿服饰辅料厂'}, {'callTime': 1617956018946, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18910491046', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '易宝支付有限公司'}, {'callTime': 1617955957623, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18929653027', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '广东联泰房地产有限公司'}, {'callTime': 1617955901738, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13621192346', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '北京海原德贸信息技术有限公司'}], 'total': 4})
+[2021-06-11 10:41:47,368] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:47,369] - test_log.py] - INFO: case 8:传入特殊字符串
+[2021-06-11 10:41:47,464] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:41:47,464] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:47,465] - test_log.py] - INFO: case 2:一次传递两个ID
+[2021-06-11 10:41:47,559] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:41:55,894] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:55,894] - test_log.py] - INFO: case 13:参数传入为：100个字符长度数据
+[2021-06-11 10:41:56,014] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:41:56,015] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:56,015] - test_log.py] - INFO: case 14:参数传入为：101个字符长度数据
+[2021-06-11 10:41:56,088] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:41:56,089] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:56,089] - test_log.py] - INFO: case 15:参数传入为：23个字符长度数据
+[2021-06-11 10:41:56,197] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:41:56,198] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:56,198] - test_log.py] - INFO: case 16:参数传入为：中文
+[2021-06-11 10:41:56,310] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:41:56,311] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:56,311] - test_log.py] - INFO: case 9:参数传入为空格
+[2021-06-11 10:41:56,412] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:41:56,413] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:56,413] - test_log.py] - INFO: case 17:参数传入为：' or 1<> '1
+[2021-06-11 10:41:56,518] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:41:56,518] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:56,519] - test_log.py] - INFO: case 18:参数传入为：<script>alert("123");</script>
+[2021-06-11 10:41:56,631] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:41:56,632] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:56,632] - test_log.py] - INFO: case 18:参数传入为：' ' or '1' = '1
+[2021-06-11 10:41:56,740] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:41:56,740] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:56,741] - test_log.py] - INFO: case 18:参数传入为：' or '1'<> '2
+[2021-06-11 10:41:56,854] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:41:56,854] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:56,854] - test_log.py] - INFO: case 18:参数传入为：@&%……
+[2021-06-11 10:41:56,960] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:41:56,961] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:56,962] - test_log.py] - INFO: case 4:传入的ID比实际少一位
+[2021-06-11 10:41:57,079] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:41:57,079] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:57,079] - test_log.py] - INFO: case 3:长字符串
+[2021-06-11 10:41:57,149] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:41:57,149] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:57,150] - test_log.py] - INFO: case 5:传入的ID比实际多一位
+[2021-06-11 10:41:57,253] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:41:57,254] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:57,254] - test_log.py] - INFO: case 7:参数传入为空
+[2021-06-11 10:41:57,338] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:41:57,339] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:57,339] - test_log.py] - INFO: case 10:参数传入为：None
+[2021-06-11 10:41:57,407] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-11 10:41:57,407] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:57,408] - test_log.py] - INFO: case 6:传入的不存在的ID
+[2021-06-11 10:41:57,516] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:41:57,517] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:57,517] - test_log.py] - INFO: case 11:参数传入为：'NULL'
+[2021-06-11 10:41:57,617] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:41:57,618] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:57,618] - test_log.py] - INFO: case 12:参数传入为：'null'
+[2021-06-11 10:41:57,718] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:41:57,719] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:57,720] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-11 10:41:57,819] - test_log.py] - INFO: (200, {'data': [{'callTime': 1617956082279, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13706264226', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '昆山市周庄镇王亿服饰辅料厂'}, {'callTime': 1617956018946, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18910491046', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '易宝支付有限公司'}, {'callTime': 1617955957623, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18929653027', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '广东联泰房地产有限公司'}, {'callTime': 1617955901738, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13621192346', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '北京海原德贸信息技术有限公司'}], 'total': 4})
+[2021-06-11 10:41:57,819] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:57,819] - test_log.py] - INFO: case 8:传入特殊字符串
+[2021-06-11 10:41:57,921] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:41:57,922] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:41:57,922] - test_log.py] - INFO: case 2:一次传递两个ID
+[2021-06-11 10:41:58,011] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:42:05,512] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:05,512] - test_log.py] - INFO: case 13:参数传入为：100个字符长度数据
+[2021-06-11 10:42:05,625] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:42:05,627] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:05,627] - test_log.py] - INFO: case 14:参数传入为：101个字符长度数据
+[2021-06-11 10:42:05,699] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:42:05,700] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:05,700] - test_log.py] - INFO: case 15:参数传入为：23个字符长度数据
+[2021-06-11 10:42:05,794] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:42:05,795] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:05,795] - test_log.py] - INFO: case 16:参数传入为：中文
+[2021-06-11 10:42:05,897] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:42:05,897] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:05,898] - test_log.py] - INFO: case 9:参数传入为空格
+[2021-06-11 10:42:05,988] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:42:05,988] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:05,988] - test_log.py] - INFO: case 17:参数传入为：' or 1<> '1
+[2021-06-11 10:42:06,093] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:42:06,094] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:06,094] - test_log.py] - INFO: case 18:参数传入为：<script>alert("123");</script>
+[2021-06-11 10:42:06,205] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:42:06,206] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:06,206] - test_log.py] - INFO: case 18:参数传入为：' ' or '1' = '1
+[2021-06-11 10:42:06,309] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:42:06,310] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:06,310] - test_log.py] - INFO: case 18:参数传入为：' or '1'<> '2
+[2021-06-11 10:42:06,400] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:42:06,401] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:06,401] - test_log.py] - INFO: case 18:参数传入为：@&%……
+[2021-06-11 10:42:06,524] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:42:06,524] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:06,525] - test_log.py] - INFO: case 4:传入的ID比实际少一位
+[2021-06-11 10:42:06,631] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:42:06,632] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:06,632] - test_log.py] - INFO: case 3:长字符串
+[2021-06-11 10:42:06,703] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:42:06,703] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:06,704] - test_log.py] - INFO: case 5:传入的ID比实际多一位
+[2021-06-11 10:42:06,799] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:42:06,800] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:06,800] - test_log.py] - INFO: case 7:参数传入为空
+[2021-06-11 10:42:06,869] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:42:06,870] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:06,870] - test_log.py] - INFO: case 10:参数传入为：None
+[2021-06-11 10:42:06,930] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-11 10:42:06,931] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:06,931] - test_log.py] - INFO: case 6:传入的不存在的ID
+[2021-06-11 10:42:07,032] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:42:07,032] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:07,032] - test_log.py] - INFO: case 11:参数传入为：'NULL'
+[2021-06-11 10:42:07,142] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:42:07,143] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:07,143] - test_log.py] - INFO: case 12:参数传入为：'null'
+[2021-06-11 10:42:07,238] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:42:07,239] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:07,239] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-11 10:42:07,356] - test_log.py] - INFO: (200, {'data': [{'callTime': 1617956082279, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13706264226', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '昆山市周庄镇王亿服饰辅料厂'}, {'callTime': 1617956018946, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18910491046', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '易宝支付有限公司'}, {'callTime': 1617955957623, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18929653027', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '广东联泰房地产有限公司'}, {'callTime': 1617955901738, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13621192346', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '北京海原德贸信息技术有限公司'}], 'total': 4})
+[2021-06-11 10:42:07,357] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:07,357] - test_log.py] - INFO: case 8:传入特殊字符串
+[2021-06-11 10:42:07,462] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:42:07,463] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:07,463] - test_log.py] - INFO: case 2:一次传递两个ID
+[2021-06-11 10:42:07,558] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:42:18,233] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:18,234] - test_log.py] - INFO: case 13:参数传入为：100个字符长度数据
+[2021-06-11 10:42:18,347] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:42:18,348] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:18,348] - test_log.py] - INFO: case 14:参数传入为：101个字符长度数据
+[2021-06-11 10:42:18,423] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:42:18,424] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:18,424] - test_log.py] - INFO: case 15:参数传入为：23个字符长度数据
+[2021-06-11 10:42:18,528] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:42:18,529] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:18,529] - test_log.py] - INFO: case 16:参数传入为：中文
+[2021-06-11 10:42:18,637] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:42:18,637] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:18,637] - test_log.py] - INFO: case 9:参数传入为空格
+[2021-06-11 10:42:18,753] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:42:18,755] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:18,755] - test_log.py] - INFO: case 17:参数传入为：' or 1<> '1
+[2021-06-11 10:42:18,857] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:42:18,858] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:18,858] - test_log.py] - INFO: case 18:参数传入为：<script>alert("123");</script>
+[2021-06-11 10:42:18,961] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:42:18,961] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:18,962] - test_log.py] - INFO: case 18:参数传入为：' ' or '1' = '1
+[2021-06-11 10:42:19,053] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:42:19,053] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:19,053] - test_log.py] - INFO: case 18:参数传入为：' or '1'<> '2
+[2021-06-11 10:42:19,155] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:42:19,156] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:19,156] - test_log.py] - INFO: case 18:参数传入为：@&%……
+[2021-06-11 10:42:19,247] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:42:19,248] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:19,248] - test_log.py] - INFO: case 4:传入的ID比实际少一位
+[2021-06-11 10:42:19,337] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:42:19,338] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:19,338] - test_log.py] - INFO: case 3:长字符串
+[2021-06-11 10:42:19,415] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:42:19,416] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:19,416] - test_log.py] - INFO: case 5:传入的ID比实际多一位
+[2021-06-11 10:42:19,523] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:42:19,524] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:19,524] - test_log.py] - INFO: case 7:参数传入为空
+[2021-06-11 10:42:19,591] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:42:19,592] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:19,592] - test_log.py] - INFO: case 10:参数传入为：None
+[2021-06-11 10:42:19,652] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-11 10:42:19,653] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:19,653] - test_log.py] - INFO: case 6:传入的不存在的ID
+[2021-06-11 10:42:19,756] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:42:19,757] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:19,757] - test_log.py] - INFO: case 11:参数传入为：'NULL'
+[2021-06-11 10:42:19,859] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:42:19,860] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:19,860] - test_log.py] - INFO: case 12:参数传入为：'null'
+[2021-06-11 10:42:19,960] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:42:19,961] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:19,961] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-11 10:42:20,061] - test_log.py] - INFO: (200, {'data': [{'callTime': 1617956082279, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13706264226', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '昆山市周庄镇王亿服饰辅料厂'}, {'callTime': 1617956018946, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18910491046', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '易宝支付有限公司'}, {'callTime': 1617955957623, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18929653027', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '广东联泰房地产有限公司'}, {'callTime': 1617955901738, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13621192346', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '北京海原德贸信息技术有限公司'}], 'total': 4})
+[2021-06-11 10:42:20,061] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:20,061] - test_log.py] - INFO: case 8:传入特殊字符串
+[2021-06-11 10:42:20,154] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:42:20,154] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:42:20,155] - test_log.py] - INFO: case 2:一次传递两个ID
+[2021-06-11 10:42:20,258] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:43:50,504] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:43:50,505] - test_log.py] - INFO: case 13:参数传入为：100个字符长度数据
+[2021-06-11 10:43:50,621] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:43:50,622] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:43:50,622] - test_log.py] - INFO: case 14:参数传入为：101个字符长度数据
+[2021-06-11 10:43:50,694] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:43:50,695] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:43:50,695] - test_log.py] - INFO: case 15:参数传入为：23个字符长度数据
+[2021-06-11 10:43:50,799] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:43:50,799] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:43:50,799] - test_log.py] - INFO: case 16:参数传入为：中文
+[2021-06-11 10:43:50,892] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:43:50,893] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:43:50,893] - test_log.py] - INFO: case 9:参数传入为空格
+[2021-06-11 10:43:50,993] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:43:50,994] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:43:50,994] - test_log.py] - INFO: case 17:参数传入为：' or 1<> '1
+[2021-06-11 10:43:51,085] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:43:51,086] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:43:51,086] - test_log.py] - INFO: case 18:参数传入为：<script>alert("123");</script>
+[2021-06-11 10:43:51,192] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:43:51,193] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:43:51,193] - test_log.py] - INFO: case 18:参数传入为：' ' or '1' = '1
+[2021-06-11 10:43:51,291] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:43:51,292] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:43:51,292] - test_log.py] - INFO: case 18:参数传入为：' or '1'<> '2
+[2021-06-11 10:43:51,386] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:43:51,387] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:43:51,387] - test_log.py] - INFO: case 18:参数传入为：@&%……
+[2021-06-11 10:43:51,485] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:43:51,486] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:43:51,486] - test_log.py] - INFO: case 4:传入的ID比实际少一位
+[2021-06-11 10:43:51,576] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:43:51,577] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:43:51,577] - test_log.py] - INFO: case 3:长字符串
+[2021-06-11 10:43:51,652] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:43:51,653] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:43:51,653] - test_log.py] - INFO: case 5:传入的ID比实际多一位
+[2021-06-11 10:43:51,758] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:43:51,758] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:43:51,758] - test_log.py] - INFO: case 7:参数传入为空
+[2021-06-11 10:43:51,832] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 10:43:51,833] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:43:51,834] - test_log.py] - INFO: case 10:参数传入为：None
+[2021-06-11 10:43:51,892] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-11 10:43:51,893] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:43:51,894] - test_log.py] - INFO: case 6:传入的不存在的ID
+[2021-06-11 10:43:51,997] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:43:51,998] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:43:51,998] - test_log.py] - INFO: case 11:参数传入为：'NULL'
+[2021-06-11 10:43:52,112] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:43:52,112] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:43:52,113] - test_log.py] - INFO: case 12:参数传入为：'null'
+[2021-06-11 10:43:52,210] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:43:52,211] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:43:52,211] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-11 10:43:52,317] - test_log.py] - INFO: (200, {'data': [{'callTime': 1617956082279, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13706264226', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '昆山市周庄镇王亿服饰辅料厂'}, {'callTime': 1617956018946, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18910491046', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '易宝支付有限公司'}, {'callTime': 1617955957623, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18929653027', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '广东联泰房地产有限公司'}, {'callTime': 1617955901738, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13621192346', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '北京海原德贸信息技术有限公司'}], 'total': 4})
+[2021-06-11 10:43:52,318] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:43:52,318] - test_log.py] - INFO: case 8:传入特殊字符串
+[2021-06-11 10:43:52,435] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:43:52,436] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:43:52,436] - test_log.py] - INFO: case 2:一次传递两个ID
+[2021-06-11 10:43:52,529] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 10:47:48,439] - test_log.py] - INFO: Start to run test case...
+[2021-06-11 10:48:07,349] - test_log.py] - INFO: Start to run test case...
+[2021-06-11 10:48:07,423] - test_log.py] - INFO: Start to write report
+[2021-06-11 10:48:07,424] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:48:07,447] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:48:07,447] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:48:07,448] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:48:07,448] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:48:07,448] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:48:07,449] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:48:07,449] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:48:07,450] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:48:07,450] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:48:07,451] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:48:07,451] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:48:07,451] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:48:07,452] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:48:07,452] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:48:07,453] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:48:07,453] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:48:07,454] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:48:07,454] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:48:07,454] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:48:07,455] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 10:48:07,456] - test_log.py] - INFO: find latest report...
+[2021-06-11 10:48:07,456] - test_log.py] - INFO: find latest report...
+[2021-06-11 10:48:07,456] - test_log.py] - INFO: find latest report...
+[2021-06-11 10:48:07,456] - test_log.py] - INFO: find latest report...
+[2021-06-11 10:48:07,456] - test_log.py] - INFO: find latest report...
+[2021-06-11 10:48:07,456] - test_log.py] - INFO: find latest report...
+[2021-06-11 10:48:07,456] - test_log.py] - INFO: find latest report...
+[2021-06-11 10:48:07,456] - test_log.py] - INFO: find latest report...
+[2021-06-11 10:48:07,456] - test_log.py] - INFO: find latest report...
+[2021-06-11 10:48:07,456] - test_log.py] - INFO: find latest report...
+[2021-06-11 10:48:07,456] - test_log.py] - INFO: find latest report...
+[2021-06-11 10:48:07,456] - test_log.py] - INFO: find latest report...
+[2021-06-11 10:48:07,456] - test_log.py] - INFO: find latest report...
+[2021-06-11 10:48:07,456] - test_log.py] - INFO: find latest report...
+[2021-06-11 10:48:07,456] - test_log.py] - INFO: find latest report...
+[2021-06-11 10:48:07,456] - test_log.py] - INFO: find latest report...
+[2021-06-11 10:48:07,456] - test_log.py] - INFO: find latest report...
+[2021-06-11 10:48:07,456] - test_log.py] - INFO: find latest report...
+[2021-06-11 10:48:07,456] - test_log.py] - INFO: find latest report...
+[2021-06-11 10:48:07,456] - test_log.py] - INFO: find latest report...
+[2021-06-11 10:48:07,456] - test_log.py] - INFO: find latest report...
+[2021-06-11 10:48:07,456] - test_log.py] - INFO: find latest report...
+[2021-06-11 10:48:07,506] - test_log.py] - INFO: Send function report...
+[2021-06-11 10:48:07,506] - test_log.py] - INFO: Send function report...
+[2021-06-11 10:48:07,506] - test_log.py] - INFO: Send function report...
+[2021-06-11 10:48:07,506] - test_log.py] - INFO: Send function report...
+[2021-06-11 10:48:07,506] - test_log.py] - INFO: Send function report...
+[2021-06-11 10:48:07,506] - test_log.py] - INFO: Send function report...
+[2021-06-11 10:48:07,506] - test_log.py] - INFO: Send function report...
+[2021-06-11 10:48:07,506] - test_log.py] - INFO: Send function report...
+[2021-06-11 10:48:07,506] - test_log.py] - INFO: Send function report...
+[2021-06-11 10:48:07,506] - test_log.py] - INFO: Send function report...
+[2021-06-11 10:48:07,506] - test_log.py] - INFO: Send function report...
+[2021-06-11 10:48:07,506] - test_log.py] - INFO: Send function report...
+[2021-06-11 10:48:07,506] - test_log.py] - INFO: Send function report...
+[2021-06-11 10:48:07,506] - test_log.py] - INFO: Send function report...
+[2021-06-11 10:48:07,506] - test_log.py] - INFO: Send function report...
+[2021-06-11 10:48:07,506] - test_log.py] - INFO: Send function report...
+[2021-06-11 10:48:07,506] - test_log.py] - INFO: Send function report...
+[2021-06-11 10:48:07,506] - test_log.py] - INFO: Send function report...
+[2021-06-11 10:48:07,506] - test_log.py] - INFO: Send function report...
+[2021-06-11 10:48:07,506] - test_log.py] - INFO: Send function report...
+[2021-06-11 10:48:07,506] - test_log.py] - INFO: Send function report...
+[2021-06-11 10:48:07,506] - test_log.py] - INFO: Send function report...
+[2021-06-11 10:48:08,723] - test_log.py] - INFO: The End!
+[2021-06-11 10:48:08,723] - test_log.py] - INFO: The End!
+[2021-06-11 10:48:08,723] - test_log.py] - INFO: The End!
+[2021-06-11 10:48:08,723] - test_log.py] - INFO: The End!
+[2021-06-11 10:48:08,723] - test_log.py] - INFO: The End!
+[2021-06-11 10:48:08,723] - test_log.py] - INFO: The End!
+[2021-06-11 10:48:08,723] - test_log.py] - INFO: The End!
+[2021-06-11 10:48:08,723] - test_log.py] - INFO: The End!
+[2021-06-11 10:48:08,723] - test_log.py] - INFO: The End!
+[2021-06-11 10:48:08,723] - test_log.py] - INFO: The End!
+[2021-06-11 10:48:08,723] - test_log.py] - INFO: The End!
+[2021-06-11 10:48:08,723] - test_log.py] - INFO: The End!
+[2021-06-11 10:48:08,723] - test_log.py] - INFO: The End!
+[2021-06-11 10:48:08,723] - test_log.py] - INFO: The End!
+[2021-06-11 10:48:08,723] - test_log.py] - INFO: The End!
+[2021-06-11 10:48:08,723] - test_log.py] - INFO: The End!
+[2021-06-11 10:48:08,723] - test_log.py] - INFO: The End!
+[2021-06-11 10:48:08,723] - test_log.py] - INFO: The End!
+[2021-06-11 10:48:08,723] - test_log.py] - INFO: The End!
+[2021-06-11 10:48:08,723] - test_log.py] - INFO: The End!
+[2021-06-11 10:48:08,723] - test_log.py] - INFO: The End!
+[2021-06-11 10:48:08,723] - test_log.py] - INFO: The End!
+[2021-06-11 11:10:03,293] - test_log.py] - INFO: Start to run test case...
+[2021-06-11 11:10:03,365] - test_log.py] - INFO: Start to write report
+[2021-06-11 11:10:03,365] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:03,367] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:03,367] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:03,368] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:03,368] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:03,369] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:03,369] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:03,370] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:03,370] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:03,371] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:03,371] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:03,371] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:03,372] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:03,372] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:03,373] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:03,373] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:03,374] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:03,374] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:03,375] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:03,375] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:03,375] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:03,377] - test_log.py] - INFO: find latest report...
+[2021-06-11 11:10:03,377] - test_log.py] - INFO: find latest report...
+[2021-06-11 11:10:03,377] - test_log.py] - INFO: find latest report...
+[2021-06-11 11:10:03,377] - test_log.py] - INFO: find latest report...
+[2021-06-11 11:10:03,377] - test_log.py] - INFO: find latest report...
+[2021-06-11 11:10:03,377] - test_log.py] - INFO: find latest report...
+[2021-06-11 11:10:03,377] - test_log.py] - INFO: find latest report...
+[2021-06-11 11:10:03,377] - test_log.py] - INFO: find latest report...
+[2021-06-11 11:10:03,377] - test_log.py] - INFO: find latest report...
+[2021-06-11 11:10:03,377] - test_log.py] - INFO: find latest report...
+[2021-06-11 11:10:03,377] - test_log.py] - INFO: find latest report...
+[2021-06-11 11:10:03,377] - test_log.py] - INFO: find latest report...
+[2021-06-11 11:10:03,377] - test_log.py] - INFO: find latest report...
+[2021-06-11 11:10:03,377] - test_log.py] - INFO: find latest report...
+[2021-06-11 11:10:03,377] - test_log.py] - INFO: find latest report...
+[2021-06-11 11:10:03,377] - test_log.py] - INFO: find latest report...
+[2021-06-11 11:10:03,377] - test_log.py] - INFO: find latest report...
+[2021-06-11 11:10:03,377] - test_log.py] - INFO: find latest report...
+[2021-06-11 11:10:03,377] - test_log.py] - INFO: find latest report...
+[2021-06-11 11:10:03,377] - test_log.py] - INFO: find latest report...
+[2021-06-11 11:10:03,377] - test_log.py] - INFO: find latest report...
+[2021-06-11 11:10:03,377] - test_log.py] - INFO: find latest report...
+[2021-06-11 11:10:03,436] - test_log.py] - INFO: Send function report...
+[2021-06-11 11:10:03,436] - test_log.py] - INFO: Send function report...
+[2021-06-11 11:10:03,436] - test_log.py] - INFO: Send function report...
+[2021-06-11 11:10:03,436] - test_log.py] - INFO: Send function report...
+[2021-06-11 11:10:03,436] - test_log.py] - INFO: Send function report...
+[2021-06-11 11:10:03,436] - test_log.py] - INFO: Send function report...
+[2021-06-11 11:10:03,436] - test_log.py] - INFO: Send function report...
+[2021-06-11 11:10:03,436] - test_log.py] - INFO: Send function report...
+[2021-06-11 11:10:03,436] - test_log.py] - INFO: Send function report...
+[2021-06-11 11:10:03,436] - test_log.py] - INFO: Send function report...
+[2021-06-11 11:10:03,436] - test_log.py] - INFO: Send function report...
+[2021-06-11 11:10:03,436] - test_log.py] - INFO: Send function report...
+[2021-06-11 11:10:03,436] - test_log.py] - INFO: Send function report...
+[2021-06-11 11:10:03,436] - test_log.py] - INFO: Send function report...
+[2021-06-11 11:10:03,436] - test_log.py] - INFO: Send function report...
+[2021-06-11 11:10:03,436] - test_log.py] - INFO: Send function report...
+[2021-06-11 11:10:03,436] - test_log.py] - INFO: Send function report...
+[2021-06-11 11:10:03,436] - test_log.py] - INFO: Send function report...
+[2021-06-11 11:10:03,436] - test_log.py] - INFO: Send function report...
+[2021-06-11 11:10:03,436] - test_log.py] - INFO: Send function report...
+[2021-06-11 11:10:03,436] - test_log.py] - INFO: Send function report...
+[2021-06-11 11:10:03,436] - test_log.py] - INFO: Send function report...
+[2021-06-11 11:10:07,945] - test_log.py] - INFO: The End!
+[2021-06-11 11:10:07,945] - test_log.py] - INFO: The End!
+[2021-06-11 11:10:07,945] - test_log.py] - INFO: The End!
+[2021-06-11 11:10:07,945] - test_log.py] - INFO: The End!
+[2021-06-11 11:10:07,945] - test_log.py] - INFO: The End!
+[2021-06-11 11:10:07,945] - test_log.py] - INFO: The End!
+[2021-06-11 11:10:07,945] - test_log.py] - INFO: The End!
+[2021-06-11 11:10:07,945] - test_log.py] - INFO: The End!
+[2021-06-11 11:10:07,945] - test_log.py] - INFO: The End!
+[2021-06-11 11:10:07,945] - test_log.py] - INFO: The End!
+[2021-06-11 11:10:07,945] - test_log.py] - INFO: The End!
+[2021-06-11 11:10:07,945] - test_log.py] - INFO: The End!
+[2021-06-11 11:10:07,945] - test_log.py] - INFO: The End!
+[2021-06-11 11:10:07,945] - test_log.py] - INFO: The End!
+[2021-06-11 11:10:07,945] - test_log.py] - INFO: The End!
+[2021-06-11 11:10:07,945] - test_log.py] - INFO: The End!
+[2021-06-11 11:10:07,945] - test_log.py] - INFO: The End!
+[2021-06-11 11:10:07,945] - test_log.py] - INFO: The End!
+[2021-06-11 11:10:07,945] - test_log.py] - INFO: The End!
+[2021-06-11 11:10:07,945] - test_log.py] - INFO: The End!
+[2021-06-11 11:10:07,945] - test_log.py] - INFO: The End!
+[2021-06-11 11:10:07,945] - test_log.py] - INFO: The End!
+[2021-06-11 11:10:08,599] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:08,599] - test_log.py] - INFO: case 13:参数传入为：100个字符长度数据
+[2021-06-11 11:10:08,711] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:10:08,711] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:08,711] - test_log.py] - INFO: case 14:参数传入为：101个字符长度数据
+[2021-06-11 11:10:08,788] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 11:10:08,788] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:08,789] - test_log.py] - INFO: case 15:参数传入为：23个字符长度数据
+[2021-06-11 11:10:08,888] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:10:08,889] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:08,889] - test_log.py] - INFO: case 16:参数传入为：中文
+[2021-06-11 11:10:08,988] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:10:08,988] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:08,988] - test_log.py] - INFO: case 9:参数传入为空格
+[2021-06-11 11:10:09,091] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:10:09,092] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:09,092] - test_log.py] - INFO: case 17:参数传入为：' or 1<> '1
+[2021-06-11 11:10:09,189] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:10:09,190] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:09,190] - test_log.py] - INFO: case 18:参数传入为：<script>alert("123");</script>
+[2021-06-11 11:10:09,286] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:10:09,286] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:09,287] - test_log.py] - INFO: case 18:参数传入为：' ' or '1' = '1
+[2021-06-11 11:10:09,376] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:10:09,377] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:09,377] - test_log.py] - INFO: case 18:参数传入为：' or '1'<> '2
+[2021-06-11 11:10:09,477] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:10:09,478] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:09,478] - test_log.py] - INFO: case 18:参数传入为：@&%……
+[2021-06-11 11:10:09,588] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:10:09,588] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:09,588] - test_log.py] - INFO: case 4:传入的ID比实际少一位
+[2021-06-11 11:10:09,687] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:10:09,687] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:09,687] - test_log.py] - INFO: case 3:长字符串
+[2021-06-11 11:10:09,759] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 11:10:09,760] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:09,760] - test_log.py] - INFO: case 5:传入的ID比实际多一位
+[2021-06-11 11:10:09,867] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:10:09,868] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:09,868] - test_log.py] - INFO: case 7:参数传入为空
+[2021-06-11 11:10:09,950] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 11:10:09,950] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:09,951] - test_log.py] - INFO: case 10:参数传入为：None
+[2021-06-11 11:10:10,006] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-11 11:10:10,007] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:10,007] - test_log.py] - INFO: case 6:传入的不存在的ID
+[2021-06-11 11:10:10,114] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:10:10,115] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:10,115] - test_log.py] - INFO: case 11:参数传入为：'NULL'
+[2021-06-11 11:10:10,221] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:10:10,222] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:10,222] - test_log.py] - INFO: case 12:参数传入为：'null'
+[2021-06-11 11:10:10,326] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:10:10,327] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:10,327] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-11 11:10:10,435] - test_log.py] - INFO: (200, {'data': [{'callTime': 1617956082279, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13706264226', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '昆山市周庄镇王亿服饰辅料厂'}, {'callTime': 1617956018946, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18910491046', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '易宝支付有限公司'}, {'callTime': 1617955957623, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18929653027', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '广东联泰房地产有限公司'}, {'callTime': 1617955901738, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13621192346', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '北京海原德贸信息技术有限公司'}], 'total': 4})
+[2021-06-11 11:10:10,436] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:10,436] - test_log.py] - INFO: case 8:传入特殊字符串
+[2021-06-11 11:10:10,540] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:10:10,540] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:10:10,540] - test_log.py] - INFO: case 2:一次传递两个ID
+[2021-06-11 11:10:10,641] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:11:07,866] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:07,866] - test_log.py] - INFO: case 13:参数传入为：100个字符长度数据
+[2021-06-11 11:11:07,998] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:11:07,998] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:07,998] - test_log.py] - INFO: case 14:参数传入为：101个字符长度数据
+[2021-06-11 11:11:08,098] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 11:11:08,099] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:08,099] - test_log.py] - INFO: case 15:参数传入为：23个字符长度数据
+[2021-06-11 11:11:08,213] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:11:08,213] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:08,214] - test_log.py] - INFO: case 16:参数传入为：中文
+[2021-06-11 11:11:08,316] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:11:08,316] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:08,316] - test_log.py] - INFO: case 9:参数传入为空格
+[2021-06-11 11:11:08,432] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:11:08,432] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:08,432] - test_log.py] - INFO: case 17:参数传入为：' or 1<> '1
+[2021-06-11 11:11:08,539] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:11:08,539] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:08,539] - test_log.py] - INFO: case 18:参数传入为：<script>alert("123");</script>
+[2021-06-11 11:11:08,638] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:11:08,638] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:08,639] - test_log.py] - INFO: case 18:参数传入为：' ' or '1' = '1
+[2021-06-11 11:11:08,740] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:11:08,740] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:08,740] - test_log.py] - INFO: case 18:参数传入为：' or '1'<> '2
+[2021-06-11 11:11:08,848] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:11:08,849] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:08,849] - test_log.py] - INFO: case 18:参数传入为：@&%……
+[2021-06-11 11:11:08,946] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:11:08,947] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:08,947] - test_log.py] - INFO: case 4:传入的ID比实际少一位
+[2021-06-11 11:11:09,025] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:11:09,025] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:09,041] - test_log.py] - INFO: case 3:长字符串
+[2021-06-11 11:11:09,107] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 11:11:09,108] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:09,108] - test_log.py] - INFO: case 5:传入的ID比实际多一位
+[2021-06-11 11:11:09,194] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:11:09,194] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:09,194] - test_log.py] - INFO: case 7:参数传入为空
+[2021-06-11 11:11:09,272] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 11:11:09,279] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:09,279] - test_log.py] - INFO: case 10:参数传入为：None
+[2021-06-11 11:11:09,341] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-11 11:11:09,341] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:09,341] - test_log.py] - INFO: case 6:传入的不存在的ID
+[2021-06-11 11:11:09,449] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:11:09,449] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:09,449] - test_log.py] - INFO: case 11:参数传入为：'NULL'
+[2021-06-11 11:11:09,548] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:11:09,548] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:09,548] - test_log.py] - INFO: case 12:参数传入为：'null'
+[2021-06-11 11:11:09,649] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:11:09,649] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:09,649] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-11 11:11:09,768] - test_log.py] - INFO: (200, {'data': [{'callTime': 1617956082279, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13706264226', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '昆山市周庄镇王亿服饰辅料厂'}, {'callTime': 1617956018946, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18910491046', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '易宝支付有限公司'}, {'callTime': 1617955957623, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18929653027', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '广东联泰房地产有限公司'}, {'callTime': 1617955901738, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13621192346', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '北京海原德贸信息技术有限公司'}], 'total': 4})
+[2021-06-11 11:11:09,769] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:09,769] - test_log.py] - INFO: case 8:传入特殊字符串
+[2021-06-11 11:11:09,864] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:11:09,864] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:09,864] - test_log.py] - INFO: case 2:一次传递两个ID
+[2021-06-11 11:11:10,006] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:11:32,953] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:32,953] - test_log.py] - INFO: case 13:参数传入为：100个字符长度数据
+[2021-06-11 11:11:33,069] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:11:33,069] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:33,069] - test_log.py] - INFO: case 14:参数传入为：101个字符长度数据
+[2021-06-11 11:11:33,152] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 11:11:33,153] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:33,153] - test_log.py] - INFO: case 15:参数传入为：23个字符长度数据
+[2021-06-11 11:11:33,251] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:11:33,252] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:33,252] - test_log.py] - INFO: case 16:参数传入为：中文
+[2021-06-11 11:11:33,353] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:11:33,353] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:33,353] - test_log.py] - INFO: case 9:参数传入为空格
+[2021-06-11 11:11:33,452] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:11:33,452] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:33,452] - test_log.py] - INFO: case 17:参数传入为：' or 1<> '1
+[2021-06-11 11:11:33,566] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:11:33,567] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:33,567] - test_log.py] - INFO: case 18:参数传入为：<script>alert("123");</script>
+[2021-06-11 11:11:33,654] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:11:33,654] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:33,654] - test_log.py] - INFO: case 18:参数传入为：' ' or '1' = '1
+[2021-06-11 11:11:33,752] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:11:33,752] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:33,752] - test_log.py] - INFO: case 18:参数传入为：' or '1'<> '2
+[2021-06-11 11:11:33,868] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:11:33,868] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:33,868] - test_log.py] - INFO: case 18:参数传入为：@&%……
+[2021-06-11 11:11:33,968] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:11:33,968] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:33,968] - test_log.py] - INFO: case 4:传入的ID比实际少一位
+[2021-06-11 11:11:34,068] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:11:34,068] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:34,068] - test_log.py] - INFO: case 3:长字符串
+[2021-06-11 11:11:34,153] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 11:11:34,153] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:34,153] - test_log.py] - INFO: case 5:传入的ID比实际多一位
+[2021-06-11 11:11:34,249] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:11:34,250] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:34,250] - test_log.py] - INFO: case 7:参数传入为空
+[2021-06-11 11:11:34,329] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 11:11:34,330] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:34,330] - test_log.py] - INFO: case 10:参数传入为：None
+[2021-06-11 11:11:34,384] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-11 11:11:34,384] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:34,384] - test_log.py] - INFO: case 6:传入的不存在的ID
+[2021-06-11 11:11:34,468] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:11:34,468] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:34,468] - test_log.py] - INFO: case 11:参数传入为：'NULL'
+[2021-06-11 11:11:34,588] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:11:34,589] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:34,589] - test_log.py] - INFO: case 12:参数传入为：'null'
+[2021-06-11 11:11:34,688] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:11:34,688] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:34,688] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-11 11:11:34,808] - test_log.py] - INFO: (200, {'data': [{'callTime': 1617956082279, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13706264226', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '昆山市周庄镇王亿服饰辅料厂'}, {'callTime': 1617956018946, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18910491046', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '易宝支付有限公司'}, {'callTime': 1617955957623, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18929653027', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '广东联泰房地产有限公司'}, {'callTime': 1617955901738, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13621192346', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '北京海原德贸信息技术有限公司'}], 'total': 4})
+[2021-06-11 11:11:34,808] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:34,808] - test_log.py] - INFO: case 8:传入特殊字符串
+[2021-06-11 11:11:34,906] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 11:11:34,907] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 11:11:34,907] - test_log.py] - INFO: case 2:一次传递两个ID
+[2021-06-11 11:11:35,006] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 14:46:37,705] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 14:46:37,705] - test_log.py] - INFO: case 13:参数传入为：100个字符长度数据
+[2021-06-11 14:46:37,814] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 14:46:37,814] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 14:46:37,814] - test_log.py] - INFO: case 14:参数传入为：101个字符长度数据
+[2021-06-11 14:46:37,885] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 14:46:37,886] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 14:46:37,886] - test_log.py] - INFO: case 15:参数传入为：23个字符长度数据
+[2021-06-11 14:46:37,991] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 14:46:37,992] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 14:46:37,992] - test_log.py] - INFO: case 16:参数传入为：中文
+[2021-06-11 14:46:38,090] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 14:46:38,090] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 14:46:38,090] - test_log.py] - INFO: case 9:参数传入为空格
+[2021-06-11 14:46:38,186] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 14:46:38,187] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 14:46:38,187] - test_log.py] - INFO: case 17:参数传入为：' or 1<> '1
+[2021-06-11 14:46:38,279] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 14:46:38,280] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 14:46:38,280] - test_log.py] - INFO: case 18:参数传入为：<script>alert("123");</script>
+[2021-06-11 14:46:38,376] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 14:46:38,377] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 14:46:38,377] - test_log.py] - INFO: case 18:参数传入为：' ' or '1' = '1
+[2021-06-11 14:46:38,473] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 14:46:38,474] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 14:46:38,474] - test_log.py] - INFO: case 18:参数传入为：' or '1'<> '2
+[2021-06-11 14:46:38,571] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 14:46:38,571] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 14:46:38,571] - test_log.py] - INFO: case 18:参数传入为：@&%……
+[2021-06-11 14:46:38,670] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 14:46:38,671] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 14:46:38,671] - test_log.py] - INFO: case 4:传入的ID比实际少一位
+[2021-06-11 14:46:38,782] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 14:46:38,783] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 14:46:38,783] - test_log.py] - INFO: case 3:长字符串
+[2021-06-11 14:46:38,859] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 14:46:38,860] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 14:46:38,860] - test_log.py] - INFO: case 5:传入的ID比实际多一位
+[2021-06-11 14:46:38,963] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 14:46:38,964] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 14:46:38,964] - test_log.py] - INFO: case 7:参数传入为空
+[2021-06-11 14:46:39,041] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-06-11 14:46:39,042] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 14:46:39,042] - test_log.py] - INFO: case 10:参数传入为：None
+[2021-06-11 14:46:39,095] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-11 14:46:39,095] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 14:46:39,096] - test_log.py] - INFO: case 6:传入的不存在的ID
+[2021-06-11 14:46:39,195] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 14:46:39,196] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 14:46:39,196] - test_log.py] - INFO: case 11:参数传入为：'NULL'
+[2021-06-11 14:46:39,293] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 14:46:39,294] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 14:46:39,294] - test_log.py] - INFO: case 12:参数传入为：'null'
+[2021-06-11 14:46:39,391] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 14:46:39,392] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 14:46:39,392] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-11 14:46:40,200] - test_log.py] - INFO: (200, {'data': [{'callTime': 1617956082279, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13706264226', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '昆山市周庄镇王亿服饰辅料厂'}, {'callTime': 1617956018946, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18910491046', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '易宝支付有限公司'}, {'callTime': 1617955957623, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '18929653027', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '广东联泰房地产有限公司'}, {'callTime': 1617955901738, 'duration': '00:00:00', 'graphName': '洞客产品', 'number': '13621192346', 'result': '设备异常', 'robotName': '只绑定网关', 'taskId': '60700c14976a3964fd868527', 'taskName': '20210409-1', 'tpName': '北京海原德贸信息技术有限公司'}], 'total': 4})
+[2021-06-11 14:46:40,201] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 14:46:40,201] - test_log.py] - INFO: case 8:传入特殊字符串
+[2021-06-11 14:46:40,318] - test_log.py] - INFO: (200, {'data': [], 'total': 0})
+[2021-06-11 14:46:40,319] - test_log.py] - INFO: ==============init data==============
+[2021-06-11 14:46:40,319] - test_log.py] - INFO: case 2:一次传递两个ID
+[2021-06-11 14:46:40,465] - test_log.py] - INFO: (200, {'data': [], 'total': 0})

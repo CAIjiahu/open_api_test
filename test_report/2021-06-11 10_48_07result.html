@@ -1,0 +1,1487 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Test Report</title>
+    <meta name="generator" content="BSTestRunner 0.8.4"/>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    
+<style type="text/css" media="screen">
+
+/* -- css div popup ------------------------------------------------------------------------ */
+.popup_window {
+    display: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /*border: solid #627173 1px; */
+    padding: 10px;
+    background-color: #99CCFF;
+    font-family: "Lucida Console", "Courier New", Courier, monospace;
+    text-align: left;
+    font-size: 10pt;
+    width: 500px;
+}
+
+/* -- report ------------------------------------------------------------------------ */
+
+#show_detail_line .label {
+    font-size: 85%;
+    cursor: pointer;
+}
+
+#show_detail_line {
+    margin: 2em auto 1em auto;
+}
+
+#total_row  { font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+
+</style>
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+<body>
+<script language="javascript" type="text/javascript"><!--
+output_list = Array();
+
+/* level - 0:Summary; 1:Failed; 2:All */
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level < 1) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level > 1) {
+                tr.className = '';
+            }
+            else {
+                tr.className = 'hiddenRow';
+            }
+        }
+    }
+}
+
+
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        if (toHide) {
+            document.getElementById('div_'+tid).style.display = 'none'
+            document.getElementById(tid).className = 'hiddenRow';
+        }
+        else {
+            document.getElementById(tid).className = '';
+        }
+    }
+}
+
+
+function showTestDetail(div_id){
+    var details_div = document.getElementById(div_id)
+    var displayState = details_div.style.display
+    // alert(displayState)
+    if (displayState != 'block' ) {
+        displayState = 'block'
+        details_div.style.display = 'block'
+    }
+    else {
+        details_div.style.display = 'none'
+    }
+}
+
+
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+
+/* obsoleted by detail in <div>
+function showOutput(id, name) {
+    var w = window.open("", //url
+                    name,
+                    "resizable,scrollbars,status,width=800,height=450");
+    d = w.document;
+    d.write("<pre>");
+    d.write(html_escape(output_list[id]));
+    d.write("\n");
+    d.write("<a href='javascript:window.close()'>close</a>\n");
+    d.write("</pre>\n");
+    d.close();
+}
+*/
+--></script>
+
+<div class="container">
+    <div class='heading'>
+<h1>Test Report</h1>
+<p><strong>Start Time:</strong> 2021-06-11 10:48:07</p>
+<p><strong>Duration:</strong> 0:00:00.031566</p>
+<p><strong>Status:</strong> <span class="text text-warning">Error <strong>21</strong></span></p>
+
+<p class='description'>localhost login test</p>
+</div>
+
+
+    
+<p id='show_detail_line'>
+<span class="label label-primary" onclick="showCase(0)">Summary</span>
+<span class="label label-danger" onclick="showCase(1)">Failed</span>
+<span class="label label-default" onclick="showCase(2)">All</span>
+</p>
+<table id='result_table' class="table">
+    <thead>
+        <tr id='header_row'>
+            <th>Test Group/Test case</td>
+            <th>Count</td>
+            <th>Pass</td>
+            <th>Fail</td>
+            <th>Error</td>
+            <th>View</td>
+        </tr>
+    </thead>
+    <tbody>
+        
+<tr class='text text-warning'>
+    <td>api_test_case1.call_detail</td>
+    <td>21</td>
+    <td>0</td>
+    <td>0</td>
+    <td>21</td>
+    <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c1',21)">Detail</a></td>
+</tr>
+
+<tr id='ft1.1' class='text text-success'>
+    <td class='text text-warning'><div class='testcase'>test_call_detail_100_word</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
+        error</a>
+
+    <div id='div_ft1.1' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.1: Traceback (most recent call last):
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1084, in emit
+    stream.write(msg + self.terminator)
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\work\open_api_test\api_test_case\api_test_case1.py", line 20, in setUp
+    log.info("==============init data==============")
+  File "D:\work\open_api_test\function\test_log.py", line 60, in info
+    self.console("info",message)
+  File "D:\work\open_api_test\function\test_log.py", line 42, in console
+    self.logger.info(message)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1434, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1577, in _log
+    self.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1587, in handle
+    self.callHandlers(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1649, in callHandlers
+    hdlr.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 950, in handle
+    self.emit(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1089, in emit
+    self.handleError(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1002, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.2' class='text text-success'>
+    <td class='text text-warning'><div class='testcase'>test_call_detail_101_word</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
+        error</a>
+
+    <div id='div_ft1.2' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.2: Traceback (most recent call last):
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1084, in emit
+    stream.write(msg + self.terminator)
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\work\open_api_test\api_test_case\api_test_case1.py", line 20, in setUp
+    log.info("==============init data==============")
+  File "D:\work\open_api_test\function\test_log.py", line 60, in info
+    self.console("info",message)
+  File "D:\work\open_api_test\function\test_log.py", line 42, in console
+    self.logger.info(message)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1434, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1577, in _log
+    self.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1587, in handle
+    self.callHandlers(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1649, in callHandlers
+    hdlr.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 950, in handle
+    self.emit(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1089, in emit
+    self.handleError(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1002, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.3' class='text text-success'>
+    <td class='text text-warning'><div class='testcase'>test_call_detail_23_word</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.3')" >
+        error</a>
+
+    <div id='div_ft1.3' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.3: Traceback (most recent call last):
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1084, in emit
+    stream.write(msg + self.terminator)
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\work\open_api_test\api_test_case\api_test_case1.py", line 20, in setUp
+    log.info("==============init data==============")
+  File "D:\work\open_api_test\function\test_log.py", line 60, in info
+    self.console("info",message)
+  File "D:\work\open_api_test\function\test_log.py", line 42, in console
+    self.logger.info(message)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1434, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1577, in _log
+    self.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1587, in handle
+    self.callHandlers(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1649, in callHandlers
+    hdlr.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 950, in handle
+    self.emit(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1089, in emit
+    self.handleError(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1002, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.4' class='text text-success'>
+    <td class='text text-warning'><div class='testcase'>test_call_detail_CN_word</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.4')" >
+        error</a>
+
+    <div id='div_ft1.4' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.4: Traceback (most recent call last):
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1084, in emit
+    stream.write(msg + self.terminator)
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\work\open_api_test\api_test_case\api_test_case1.py", line 20, in setUp
+    log.info("==============init data==============")
+  File "D:\work\open_api_test\function\test_log.py", line 60, in info
+    self.console("info",message)
+  File "D:\work\open_api_test\function\test_log.py", line 42, in console
+    self.logger.info(message)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1434, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1577, in _log
+    self.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1587, in handle
+    self.callHandlers(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1649, in callHandlers
+    hdlr.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 950, in handle
+    self.emit(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1089, in emit
+    self.handleError(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1002, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.5' class='text text-success'>
+    <td class='text text-warning'><div class='testcase'>test_call_detail_black_parm</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.5')" >
+        error</a>
+
+    <div id='div_ft1.5' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.5: Traceback (most recent call last):
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1084, in emit
+    stream.write(msg + self.terminator)
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\work\open_api_test\api_test_case\api_test_case1.py", line 20, in setUp
+    log.info("==============init data==============")
+  File "D:\work\open_api_test\function\test_log.py", line 60, in info
+    self.console("info",message)
+  File "D:\work\open_api_test\function\test_log.py", line 42, in console
+    self.logger.info(message)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1434, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1577, in _log
+    self.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1587, in handle
+    self.callHandlers(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1649, in callHandlers
+    hdlr.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 950, in handle
+    self.emit(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1089, in emit
+    self.handleError(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1002, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.6' class='text text-success'>
+    <td class='text text-warning'><div class='testcase'>test_call_detail_epl1_word</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.6')" >
+        error</a>
+
+    <div id='div_ft1.6' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.6').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.6: Traceback (most recent call last):
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1084, in emit
+    stream.write(msg + self.terminator)
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\work\open_api_test\api_test_case\api_test_case1.py", line 20, in setUp
+    log.info("==============init data==============")
+  File "D:\work\open_api_test\function\test_log.py", line 60, in info
+    self.console("info",message)
+  File "D:\work\open_api_test\function\test_log.py", line 42, in console
+    self.logger.info(message)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1434, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1577, in _log
+    self.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1587, in handle
+    self.callHandlers(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1649, in callHandlers
+    hdlr.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 950, in handle
+    self.emit(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1089, in emit
+    self.handleError(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1002, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.7' class='text text-success'>
+    <td class='text text-warning'><div class='testcase'>test_call_detail_epl2_word</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.7')" >
+        error</a>
+
+    <div id='div_ft1.7' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.7').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.7: Traceback (most recent call last):
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1084, in emit
+    stream.write(msg + self.terminator)
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\work\open_api_test\api_test_case\api_test_case1.py", line 20, in setUp
+    log.info("==============init data==============")
+  File "D:\work\open_api_test\function\test_log.py", line 60, in info
+    self.console("info",message)
+  File "D:\work\open_api_test\function\test_log.py", line 42, in console
+    self.logger.info(message)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1434, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1577, in _log
+    self.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1587, in handle
+    self.callHandlers(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1649, in callHandlers
+    hdlr.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 950, in handle
+    self.emit(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1089, in emit
+    self.handleError(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1002, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.8' class='text text-success'>
+    <td class='text text-warning'><div class='testcase'>test_call_detail_epl3_word</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.8')" >
+        error</a>
+
+    <div id='div_ft1.8' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.8').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.8: Traceback (most recent call last):
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1084, in emit
+    stream.write(msg + self.terminator)
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\work\open_api_test\api_test_case\api_test_case1.py", line 20, in setUp
+    log.info("==============init data==============")
+  File "D:\work\open_api_test\function\test_log.py", line 60, in info
+    self.console("info",message)
+  File "D:\work\open_api_test\function\test_log.py", line 42, in console
+    self.logger.info(message)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1434, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1577, in _log
+    self.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1587, in handle
+    self.callHandlers(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1649, in callHandlers
+    hdlr.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 950, in handle
+    self.emit(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1089, in emit
+    self.handleError(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1002, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.9' class='text text-success'>
+    <td class='text text-warning'><div class='testcase'>test_call_detail_epl4_word</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.9')" >
+        error</a>
+
+    <div id='div_ft1.9' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.9').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.9: Traceback (most recent call last):
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1084, in emit
+    stream.write(msg + self.terminator)
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\work\open_api_test\api_test_case\api_test_case1.py", line 20, in setUp
+    log.info("==============init data==============")
+  File "D:\work\open_api_test\function\test_log.py", line 60, in info
+    self.console("info",message)
+  File "D:\work\open_api_test\function\test_log.py", line 42, in console
+    self.logger.info(message)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1434, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1577, in _log
+    self.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1587, in handle
+    self.callHandlers(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1649, in callHandlers
+    hdlr.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 950, in handle
+    self.emit(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1089, in emit
+    self.handleError(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1002, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.10' class='text text-success'>
+    <td class='text text-warning'><div class='testcase'>test_call_detail_epl5_word</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.10')" >
+        error</a>
+
+    <div id='div_ft1.10' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.10').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.10: Traceback (most recent call last):
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1084, in emit
+    stream.write(msg + self.terminator)
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\work\open_api_test\api_test_case\api_test_case1.py", line 20, in setUp
+    log.info("==============init data==============")
+  File "D:\work\open_api_test\function\test_log.py", line 60, in info
+    self.console("info",message)
+  File "D:\work\open_api_test\function\test_log.py", line 42, in console
+    self.logger.info(message)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1434, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1577, in _log
+    self.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1587, in handle
+    self.callHandlers(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1649, in callHandlers
+    hdlr.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 950, in handle
+    self.emit(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1089, in emit
+    self.handleError(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1002, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.11' class='text text-success'>
+    <td class='text text-warning'><div class='testcase'>test_call_detail_less_parm</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.11')" >
+        error</a>
+
+    <div id='div_ft1.11' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.11').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.11: Traceback (most recent call last):
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1084, in emit
+    stream.write(msg + self.terminator)
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\work\open_api_test\api_test_case\api_test_case1.py", line 20, in setUp
+    log.info("==============init data==============")
+  File "D:\work\open_api_test\function\test_log.py", line 60, in info
+    self.console("info",message)
+  File "D:\work\open_api_test\function\test_log.py", line 42, in console
+    self.logger.info(message)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1434, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1577, in _log
+    self.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1587, in handle
+    self.callHandlers(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1649, in callHandlers
+    hdlr.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 950, in handle
+    self.emit(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1089, in emit
+    self.handleError(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1002, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.12' class='text text-success'>
+    <td class='text text-warning'><div class='testcase'>test_call_detail_long_parm</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.12')" >
+        error</a>
+
+    <div id='div_ft1.12' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.12').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.12: Traceback (most recent call last):
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1084, in emit
+    stream.write(msg + self.terminator)
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\work\open_api_test\api_test_case\api_test_case1.py", line 20, in setUp
+    log.info("==============init data==============")
+  File "D:\work\open_api_test\function\test_log.py", line 60, in info
+    self.console("info",message)
+  File "D:\work\open_api_test\function\test_log.py", line 42, in console
+    self.logger.info(message)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1434, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1577, in _log
+    self.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1587, in handle
+    self.callHandlers(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1649, in callHandlers
+    hdlr.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 950, in handle
+    self.emit(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1089, in emit
+    self.handleError(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1002, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.13' class='text text-success'>
+    <td class='text text-warning'><div class='testcase'>test_call_detail_more_parm</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.13')" >
+        error</a>
+
+    <div id='div_ft1.13' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.13').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.13: Traceback (most recent call last):
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1084, in emit
+    stream.write(msg + self.terminator)
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\work\open_api_test\api_test_case\api_test_case1.py", line 20, in setUp
+    log.info("==============init data==============")
+  File "D:\work\open_api_test\function\test_log.py", line 60, in info
+    self.console("info",message)
+  File "D:\work\open_api_test\function\test_log.py", line 42, in console
+    self.logger.info(message)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1434, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1577, in _log
+    self.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1587, in handle
+    self.callHandlers(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1649, in callHandlers
+    hdlr.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 950, in handle
+    self.emit(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1089, in emit
+    self.handleError(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1002, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.14' class='text text-success'>
+    <td class='text text-warning'><div class='testcase'>test_call_detail_no_parm</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.14')" >
+        error</a>
+
+    <div id='div_ft1.14' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.14').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.14: Traceback (most recent call last):
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1084, in emit
+    stream.write(msg + self.terminator)
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\work\open_api_test\api_test_case\api_test_case1.py", line 20, in setUp
+    log.info("==============init data==============")
+  File "D:\work\open_api_test\function\test_log.py", line 60, in info
+    self.console("info",message)
+  File "D:\work\open_api_test\function\test_log.py", line 42, in console
+    self.logger.info(message)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1434, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1577, in _log
+    self.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1587, in handle
+    self.callHandlers(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1649, in callHandlers
+    hdlr.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 950, in handle
+    self.emit(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1089, in emit
+    self.handleError(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1002, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.15' class='text text-success'>
+    <td class='text text-warning'><div class='testcase'>test_call_detail_none_parm</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.15')" >
+        error</a>
+
+    <div id='div_ft1.15' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.15').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.15: Traceback (most recent call last):
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1084, in emit
+    stream.write(msg + self.terminator)
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\work\open_api_test\api_test_case\api_test_case1.py", line 20, in setUp
+    log.info("==============init data==============")
+  File "D:\work\open_api_test\function\test_log.py", line 60, in info
+    self.console("info",message)
+  File "D:\work\open_api_test\function\test_log.py", line 42, in console
+    self.logger.info(message)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1434, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1577, in _log
+    self.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1587, in handle
+    self.callHandlers(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1649, in callHandlers
+    hdlr.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 950, in handle
+    self.emit(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1089, in emit
+    self.handleError(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1002, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.16' class='text text-success'>
+    <td class='text text-warning'><div class='testcase'>test_call_detail_notexist_parm</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.16')" >
+        error</a>
+
+    <div id='div_ft1.16' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.16').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.16: Traceback (most recent call last):
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1084, in emit
+    stream.write(msg + self.terminator)
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\work\open_api_test\api_test_case\api_test_case1.py", line 20, in setUp
+    log.info("==============init data==============")
+  File "D:\work\open_api_test\function\test_log.py", line 60, in info
+    self.console("info",message)
+  File "D:\work\open_api_test\function\test_log.py", line 42, in console
+    self.logger.info(message)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1434, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1577, in _log
+    self.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1587, in handle
+    self.callHandlers(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1649, in callHandlers
+    hdlr.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 950, in handle
+    self.emit(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1089, in emit
+    self.handleError(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1002, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.17' class='text text-success'>
+    <td class='text text-warning'><div class='testcase'>test_call_detail_parm_NULL</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.17')" >
+        error</a>
+
+    <div id='div_ft1.17' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.17').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.17: Traceback (most recent call last):
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1084, in emit
+    stream.write(msg + self.terminator)
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\work\open_api_test\api_test_case\api_test_case1.py", line 20, in setUp
+    log.info("==============init data==============")
+  File "D:\work\open_api_test\function\test_log.py", line 60, in info
+    self.console("info",message)
+  File "D:\work\open_api_test\function\test_log.py", line 42, in console
+    self.logger.info(message)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1434, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1577, in _log
+    self.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1587, in handle
+    self.callHandlers(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1649, in callHandlers
+    hdlr.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 950, in handle
+    self.emit(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1089, in emit
+    self.handleError(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1002, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.18' class='text text-success'>
+    <td class='text text-warning'><div class='testcase'>test_call_detail_parm_null</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.18')" >
+        error</a>
+
+    <div id='div_ft1.18' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.18').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.18: Traceback (most recent call last):
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1084, in emit
+    stream.write(msg + self.terminator)
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\work\open_api_test\api_test_case\api_test_case1.py", line 20, in setUp
+    log.info("==============init data==============")
+  File "D:\work\open_api_test\function\test_log.py", line 60, in info
+    self.console("info",message)
+  File "D:\work\open_api_test\function\test_log.py", line 42, in console
+    self.logger.info(message)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1434, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1577, in _log
+    self.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1587, in handle
+    self.callHandlers(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1649, in callHandlers
+    hdlr.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 950, in handle
+    self.emit(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1089, in emit
+    self.handleError(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1002, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.19' class='text text-success'>
+    <td class='text text-warning'><div class='testcase'>test_call_detail_parm_true</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.19')" >
+        error</a>
+
+    <div id='div_ft1.19' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.19').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.19: Traceback (most recent call last):
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1084, in emit
+    stream.write(msg + self.terminator)
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\work\open_api_test\api_test_case\api_test_case1.py", line 20, in setUp
+    log.info("==============init data==============")
+  File "D:\work\open_api_test\function\test_log.py", line 60, in info
+    self.console("info",message)
+  File "D:\work\open_api_test\function\test_log.py", line 42, in console
+    self.logger.info(message)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1434, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1577, in _log
+    self.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1587, in handle
+    self.callHandlers(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1649, in callHandlers
+    hdlr.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 950, in handle
+    self.emit(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1089, in emit
+    self.handleError(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1002, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.20' class='text text-success'>
+    <td class='text text-warning'><div class='testcase'>test_call_detail_special_parm</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.20')" >
+        error</a>
+
+    <div id='div_ft1.20' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.20').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.20: Traceback (most recent call last):
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1084, in emit
+    stream.write(msg + self.terminator)
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\work\open_api_test\api_test_case\api_test_case1.py", line 20, in setUp
+    log.info("==============init data==============")
+  File "D:\work\open_api_test\function\test_log.py", line 60, in info
+    self.console("info",message)
+  File "D:\work\open_api_test\function\test_log.py", line 42, in console
+    self.logger.info(message)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1434, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1577, in _log
+    self.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1587, in handle
+    self.callHandlers(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1649, in callHandlers
+    hdlr.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 950, in handle
+    self.emit(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1089, in emit
+    self.handleError(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1002, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft1.21' class='text text-success'>
+    <td class='text text-warning'><div class='testcase'>test_call_detail_two_parms</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.21')" >
+        error</a>
+
+    <div id='div_ft1.21' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.21').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.21: Traceback (most recent call last):
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1084, in emit
+    stream.write(msg + self.terminator)
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\work\open_api_test\api_test_case\api_test_case1.py", line 20, in setUp
+    log.info("==============init data==============")
+  File "D:\work\open_api_test\function\test_log.py", line 60, in info
+    self.console("info",message)
+  File "D:\work\open_api_test\function\test_log.py", line 42, in console
+    self.logger.info(message)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1434, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1577, in _log
+    self.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1587, in handle
+    self.callHandlers(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1649, in callHandlers
+    hdlr.handle(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 950, in handle
+    self.emit(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1089, in emit
+    self.handleError(record)
+  File "D:\Program Files\python3.8.5\lib\logging\__init__.py", line 1002, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 133, in write
+    self.fp.write(to_unicode(s))
+  File "D:\Program Files\python3.8.5\lib\BSTestRunner.py", line 122, in to_unicode
+    return unicode(s)
+NameError: name 'unicode' is not defined
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+    </tbody>
+    <tfoot>
+        <tr id='total_row'>
+            <td>Total</td>
+            <td>21</td>
+            <td class="text text-success">0</td>
+            <td class="text text-danger">0</td>
+            <td class="text text-warning">21</td>
+            <td>&nbsp;</td>
+        </tr>
+    </tfoot>
+</table>
+
+    <div id='ending'>&nbsp;</div>
+</div>
+
+</body>
+</html>

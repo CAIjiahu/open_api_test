@@ -1,0 +1,373 @@
+[2021-06-10 16:24:57,044] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 16:24:57,044] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-10 16:25:25,352] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 16:25:25,353] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-10 16:26:00,771] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 16:26:00,772] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-10 16:28:10,150] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 16:28:10,150] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-10 16:28:10,293] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:50:38,796] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:50:38,796] - test_log.py] - INFO: case 13:参数传入为：100个字符长度数据
+[2021-06-10 17:50:38,865] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:50:38,866] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:50:38,866] - test_log.py] - INFO: case 14:参数传入为：101个字符长度数据
+[2021-06-10 17:50:38,932] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:50:38,932] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:50:38,932] - test_log.py] - INFO: case 15:参数传入为：23个字符长度数据
+[2021-06-10 17:50:38,993] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:50:38,994] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:50:38,994] - test_log.py] - INFO: case 16:参数传入为：中文
+[2021-06-10 17:50:39,058] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:50:39,059] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:50:39,059] - test_log.py] - INFO: case 9:参数传入为空格
+[2021-06-10 17:50:39,130] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:50:39,131] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:50:39,131] - test_log.py] - INFO: case 17:参数传入为：' or 1<> '1
+[2021-06-10 17:50:39,186] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:50:39,187] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:50:39,187] - test_log.py] - INFO: case 18:参数传入为：<script>alert("123");</script>
+[2021-06-10 17:50:39,241] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:50:39,242] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:50:39,242] - test_log.py] - INFO: case 18:参数传入为：' ' or '1' = '1
+[2021-06-10 17:50:39,302] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:50:39,303] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:50:39,303] - test_log.py] - INFO: case 18:参数传入为：' or '1'<> '2
+[2021-06-10 17:50:39,366] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:50:39,366] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:50:39,367] - test_log.py] - INFO: case 18:参数传入为：@&%……
+[2021-06-10 17:50:39,422] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:50:39,422] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:50:39,422] - test_log.py] - INFO: case 4:传入的ID比实际少一位
+[2021-06-10 17:50:39,487] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:50:39,487] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:50:39,487] - test_log.py] - INFO: case 3:长字符串
+[2021-06-10 17:50:39,547] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:50:39,548] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:50:39,548] - test_log.py] - INFO: case 5:传入的ID比实际多一位
+[2021-06-10 17:50:39,613] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:50:39,614] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:50:39,614] - test_log.py] - INFO: case 7:参数传入为空
+[2021-06-10 17:50:39,679] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:50:39,680] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:50:39,680] - test_log.py] - INFO: case 10:参数传入为：None
+[2021-06-10 17:50:39,749] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:50:39,749] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:50:39,749] - test_log.py] - INFO: case 6:传入的不存在的ID
+[2021-06-10 17:50:39,814] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:50:39,815] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:50:39,815] - test_log.py] - INFO: case 11:参数传入为：'NULL'
+[2021-06-10 17:50:39,883] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:50:39,883] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:50:39,883] - test_log.py] - INFO: case 12:参数传入为：'null'
+[2021-06-10 17:50:39,941] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:50:39,942] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-10 17:50:40,011] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:50:40,011] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:50:40,011] - test_log.py] - INFO: case 8:传入特殊字符串#$#%%^&^%^%^&%^%☎☏✄☪☣☢☠♨« »큐〓㊚㊛囍㊒㊖☑✔☐☒✘㍿☯☰☷♥♠♤ ♂♀
+[2021-06-10 17:50:40,068] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:50:40,069] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:50:40,069] - test_log.py] - INFO: case 2:一次传递两个ID
+[2021-06-10 17:52:13,146] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:52:13,147] - test_log.py] - INFO: case 13:参数传入为：100个字符长度数据
+[2021-06-10 17:52:13,230] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:52:13,232] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:52:13,232] - test_log.py] - INFO: case 14:参数传入为：101个字符长度数据
+[2021-06-10 17:52:13,298] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:52:13,299] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:52:13,299] - test_log.py] - INFO: case 15:参数传入为：23个字符长度数据
+[2021-06-10 17:52:13,369] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:52:13,370] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:52:13,370] - test_log.py] - INFO: case 16:参数传入为：中文
+[2021-06-10 17:52:13,435] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:52:13,436] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:52:13,437] - test_log.py] - INFO: case 9:参数传入为空格
+[2021-06-10 17:52:13,496] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:52:13,497] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:52:13,497] - test_log.py] - INFO: case 17:参数传入为：' or 1<> '1
+[2021-06-10 17:52:13,570] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:52:13,571] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:52:13,571] - test_log.py] - INFO: case 18:参数传入为：<script>alert("123");</script>
+[2021-06-10 17:52:13,638] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:52:13,639] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:52:13,639] - test_log.py] - INFO: case 18:参数传入为：' ' or '1' = '1
+[2021-06-10 17:52:13,705] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:52:13,706] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:52:13,707] - test_log.py] - INFO: case 18:参数传入为：' or '1'<> '2
+[2021-06-10 17:52:13,765] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:52:13,766] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:52:13,767] - test_log.py] - INFO: case 18:参数传入为：@&%……
+[2021-06-10 17:52:13,839] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:52:13,840] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:52:13,840] - test_log.py] - INFO: case 4:传入的ID比实际少一位
+[2021-06-10 17:52:13,901] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:52:13,902] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:52:13,903] - test_log.py] - INFO: case 3:长字符串
+[2021-06-10 17:52:13,970] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:52:13,971] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:52:13,972] - test_log.py] - INFO: case 5:传入的ID比实际多一位
+[2021-06-10 17:52:14,042] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:52:14,043] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:52:14,044] - test_log.py] - INFO: case 7:参数传入为空
+[2021-06-10 17:52:14,113] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:52:14,114] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:52:14,115] - test_log.py] - INFO: case 10:参数传入为：None
+[2021-06-10 17:52:14,188] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:52:14,188] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:52:14,189] - test_log.py] - INFO: case 6:传入的不存在的ID
+[2021-06-10 17:52:14,252] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:52:14,253] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:52:14,253] - test_log.py] - INFO: case 11:参数传入为：'NULL'
+[2021-06-10 17:52:14,333] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:52:14,334] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:52:14,334] - test_log.py] - INFO: case 12:参数传入为：'null'
+[2021-06-10 17:52:14,407] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:52:14,408] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-10 17:52:14,479] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:52:14,480] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:52:14,481] - test_log.py] - INFO: case 8:传入特殊字符串#$#%%^&^%^%^&%^%☎☏✄☪☣☢☠♨« »큐〓㊚㊛囍㊒㊖☑✔☐☒✘㍿☯☰☷♥♠♤ ♂♀
+[2021-06-10 17:52:14,543] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:52:14,544] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:52:14,545] - test_log.py] - INFO: case 2:一次传递两个ID
+[2021-06-10 17:55:41,786] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:55:41,787] - test_log.py] - INFO: case 13:参数传入为：100个字符长度数据
+[2021-06-10 17:55:41,856] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:55:41,857] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:55:41,858] - test_log.py] - INFO: case 14:参数传入为：101个字符长度数据
+[2021-06-10 17:55:41,929] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:55:41,930] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:55:41,931] - test_log.py] - INFO: case 15:参数传入为：23个字符长度数据
+[2021-06-10 17:55:41,999] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:55:42,000] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:55:42,000] - test_log.py] - INFO: case 16:参数传入为：中文
+[2021-06-10 17:55:42,067] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:55:42,068] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:55:42,068] - test_log.py] - INFO: case 9:参数传入为空格
+[2021-06-10 17:55:42,132] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:55:42,133] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:55:42,134] - test_log.py] - INFO: case 17:参数传入为：' or 1<> '1
+[2021-06-10 17:55:42,207] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:55:42,208] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:55:42,209] - test_log.py] - INFO: case 18:参数传入为：<script>alert("123");</script>
+[2021-06-10 17:55:42,278] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:55:42,279] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:55:42,280] - test_log.py] - INFO: case 18:参数传入为：' ' or '1' = '1
+[2021-06-10 17:55:42,345] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:55:42,346] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:55:42,347] - test_log.py] - INFO: case 18:参数传入为：' or '1'<> '2
+[2021-06-10 17:55:42,409] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:55:42,410] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:55:42,411] - test_log.py] - INFO: case 18:参数传入为：@&%……
+[2021-06-10 17:55:42,476] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:55:42,477] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:55:42,477] - test_log.py] - INFO: case 4:传入的ID比实际少一位
+[2021-06-10 17:55:42,539] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:55:42,540] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:55:42,540] - test_log.py] - INFO: case 3:长字符串
+[2021-06-10 17:55:42,598] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:55:42,599] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:55:42,599] - test_log.py] - INFO: case 5:传入的ID比实际多一位
+[2021-06-10 17:55:42,664] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:55:42,665] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:55:42,665] - test_log.py] - INFO: case 7:参数传入为空
+[2021-06-10 17:55:42,730] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:55:42,731] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:55:42,732] - test_log.py] - INFO: case 10:参数传入为：None
+[2021-06-10 17:55:42,791] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:55:42,792] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:55:42,792] - test_log.py] - INFO: case 6:传入的不存在的ID
+[2021-06-10 17:55:42,863] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:55:42,864] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:55:42,865] - test_log.py] - INFO: case 11:参数传入为：'NULL'
+[2021-06-10 17:55:42,932] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:55:42,933] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:55:42,934] - test_log.py] - INFO: case 12:参数传入为：'null'
+[2021-06-10 17:55:43,002] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:55:43,002] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-10 17:55:43,072] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:55:43,073] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:55:43,074] - test_log.py] - INFO: case 8:传入特殊字符串
+[2021-06-10 17:55:43,146] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:55:43,147] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:55:43,148] - test_log.py] - INFO: case 2:一次传递两个ID
+[2021-06-10 17:56:17,284] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:56:17,285] - test_log.py] - INFO: case 13:参数传入为：100个字符长度数据
+[2021-06-10 17:56:17,365] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:56:17,367] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:56:17,367] - test_log.py] - INFO: case 14:参数传入为：101个字符长度数据
+[2021-06-10 17:56:17,441] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:56:17,442] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:56:17,443] - test_log.py] - INFO: case 15:参数传入为：23个字符长度数据
+[2021-06-10 17:56:17,509] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:56:17,510] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:56:17,511] - test_log.py] - INFO: case 16:参数传入为：中文
+[2021-06-10 17:56:17,581] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:56:17,582] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:56:17,583] - test_log.py] - INFO: case 9:参数传入为空格
+[2021-06-10 17:56:17,650] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:56:17,651] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:56:17,652] - test_log.py] - INFO: case 17:参数传入为：' or 1<> '1
+[2021-06-10 17:56:17,723] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:56:17,724] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:56:17,725] - test_log.py] - INFO: case 18:参数传入为：<script>alert("123");</script>
+[2021-06-10 17:56:17,799] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:56:17,800] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:56:17,801] - test_log.py] - INFO: case 18:参数传入为：' ' or '1' = '1
+[2021-06-10 17:56:17,921] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:56:17,922] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:56:17,923] - test_log.py] - INFO: case 18:参数传入为：' or '1'<> '2
+[2021-06-10 17:56:17,989] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:56:17,990] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:56:17,990] - test_log.py] - INFO: case 18:参数传入为：@&%……
+[2021-06-10 17:56:18,059] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:56:18,060] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:56:18,061] - test_log.py] - INFO: case 4:传入的ID比实际少一位
+[2021-06-10 17:56:18,127] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:56:18,128] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:56:18,129] - test_log.py] - INFO: case 3:长字符串
+[2021-06-10 17:56:18,195] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:56:18,196] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:56:18,196] - test_log.py] - INFO: case 5:传入的ID比实际多一位
+[2021-06-10 17:56:18,261] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:56:18,262] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:56:18,263] - test_log.py] - INFO: case 7:参数传入为空
+[2021-06-10 17:56:18,320] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:56:18,321] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:56:18,322] - test_log.py] - INFO: case 10:参数传入为：None
+[2021-06-10 17:56:18,391] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:56:18,392] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:56:18,392] - test_log.py] - INFO: case 6:传入的不存在的ID
+[2021-06-10 17:56:18,460] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:56:18,461] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:56:18,462] - test_log.py] - INFO: case 11:参数传入为：'NULL'
+[2021-06-10 17:56:18,528] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:56:18,529] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:56:18,530] - test_log.py] - INFO: case 12:参数传入为：'null'
+[2021-06-10 17:56:18,597] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:56:18,597] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-10 17:56:18,657] - test_log.py] - INFO: (404, {'err': 50, 'msg': 'Not Found'})
+[2021-06-10 17:56:18,658] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 17:56:36,910] - test_log.py] - INFO: case 8:传入特殊字符串
+[2021-06-10 18:02:44,863] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:02:44,863] - test_log.py] - INFO: case 13:参数传入为：100个字符长度数据
+[2021-06-10 18:02:44,937] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:02:44,937] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:02:44,938] - test_log.py] - INFO: case 14:参数传入为：101个字符长度数据
+[2021-06-10 18:02:45,003] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:02:45,005] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:02:45,006] - test_log.py] - INFO: case 15:参数传入为：23个字符长度数据
+[2021-06-10 18:02:45,068] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:02:45,069] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:02:45,069] - test_log.py] - INFO: case 16:参数传入为：中文
+[2021-06-10 18:02:45,143] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:02:45,143] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:02:45,143] - test_log.py] - INFO: case 9:参数传入为空格
+[2021-06-10 18:02:45,200] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:02:45,201] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:02:45,201] - test_log.py] - INFO: case 17:参数传入为：' or 1<> '1
+[2021-06-10 18:02:45,262] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:02:45,263] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:02:45,263] - test_log.py] - INFO: case 18:参数传入为：<script>alert("123");</script>
+[2021-06-10 18:02:45,320] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:02:45,321] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:02:45,321] - test_log.py] - INFO: case 18:参数传入为：' ' or '1' = '1
+[2021-06-10 18:02:45,386] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:02:45,387] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:02:45,387] - test_log.py] - INFO: case 18:参数传入为：' or '1'<> '2
+[2021-06-10 18:02:45,452] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:02:45,452] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:02:45,452] - test_log.py] - INFO: case 18:参数传入为：@&%……
+[2021-06-10 18:02:45,518] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:02:45,519] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:02:45,519] - test_log.py] - INFO: case 4:传入的ID比实际少一位
+[2021-06-10 18:02:45,580] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:02:45,581] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:02:45,581] - test_log.py] - INFO: case 3:长字符串
+[2021-06-10 18:02:45,875] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:02:45,876] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:02:45,876] - test_log.py] - INFO: case 5:传入的ID比实际多一位
+[2021-06-10 18:02:45,939] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:02:45,941] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:02:45,941] - test_log.py] - INFO: case 7:参数传入为空
+[2021-06-10 18:02:46,007] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:02:46,008] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:02:46,008] - test_log.py] - INFO: case 10:参数传入为：None
+[2021-06-10 18:02:46,066] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:02:46,067] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:02:46,067] - test_log.py] - INFO: case 6:传入的不存在的ID
+[2021-06-10 18:02:46,128] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:02:46,129] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:02:46,129] - test_log.py] - INFO: case 11:参数传入为：'NULL'
+[2021-06-10 18:02:46,192] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:02:46,193] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:02:46,193] - test_log.py] - INFO: case 12:参数传入为：'null'
+[2021-06-10 18:02:46,255] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:02:46,255] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-10 18:02:46,319] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:02:46,320] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:02:46,320] - test_log.py] - INFO: case 8:传入特殊字符串
+[2021-06-10 18:02:46,382] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:02:46,383] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:02:46,383] - test_log.py] - INFO: case 2:一次传递两个ID
+[2021-06-10 18:21:51,662] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:21:51,662] - test_log.py] - INFO: case 13:参数传入为：100个字符长度数据
+[2021-06-10 18:21:51,729] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:21:51,730] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:21:51,730] - test_log.py] - INFO: case 14:参数传入为：101个字符长度数据
+[2021-06-10 18:21:51,798] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:21:51,799] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:21:51,799] - test_log.py] - INFO: case 15:参数传入为：23个字符长度数据
+[2021-06-10 18:21:51,861] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:21:51,862] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:21:51,862] - test_log.py] - INFO: case 16:参数传入为：中文
+[2021-06-10 18:21:51,931] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:21:51,931] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:21:51,931] - test_log.py] - INFO: case 9:参数传入为空格
+[2021-06-10 18:21:52,000] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:21:52,001] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:21:52,001] - test_log.py] - INFO: case 17:参数传入为：' or 1<> '1
+[2021-06-10 18:21:52,067] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:21:52,068] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:21:52,068] - test_log.py] - INFO: case 18:参数传入为：<script>alert("123");</script>
+[2021-06-10 18:21:52,137] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:21:52,138] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:21:52,138] - test_log.py] - INFO: case 18:参数传入为：' ' or '1' = '1
+[2021-06-10 18:21:52,198] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:21:52,199] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:21:52,199] - test_log.py] - INFO: case 18:参数传入为：' or '1'<> '2
+[2021-06-10 18:21:52,263] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:21:52,264] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:21:52,264] - test_log.py] - INFO: case 18:参数传入为：@&%……
+[2021-06-10 18:21:52,319] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:21:52,320] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:21:52,320] - test_log.py] - INFO: case 4:传入的ID比实际少一位
+[2021-06-10 18:21:52,389] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:21:52,390] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:21:52,390] - test_log.py] - INFO: case 3:长字符串
+[2021-06-10 18:21:52,455] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:21:52,456] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:21:52,456] - test_log.py] - INFO: case 5:传入的ID比实际多一位
+[2021-06-10 18:21:52,526] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:21:52,527] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:21:52,527] - test_log.py] - INFO: case 7:参数传入为空
+[2021-06-10 18:21:52,590] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:21:52,591] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:21:52,591] - test_log.py] - INFO: case 10:参数传入为：None
+[2021-06-10 18:21:52,676] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:21:52,677] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:21:52,677] - test_log.py] - INFO: case 6:传入的不存在的ID
+[2021-06-10 18:21:52,747] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:21:52,748] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:21:52,748] - test_log.py] - INFO: case 11:参数传入为：'NULL'
+[2021-06-10 18:21:52,820] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:21:52,821] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:21:52,821] - test_log.py] - INFO: case 12:参数传入为：'null'
+[2021-06-10 18:21:52,895] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:21:52,895] - test_log.py] - INFO: case 1:参数正确传递
+[2021-06-10 18:21:52,957] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:21:52,957] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:21:52,957] - test_log.py] - INFO: case 8:传入特殊字符串
+[2021-06-10 18:21:53,022] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-06-10 18:21:53,023] - test_log.py] - INFO: ==============init data==============
+[2021-06-10 18:21:53,023] - test_log.py] - INFO: case 2:一次传递两个ID
+[2021-06-10 18:21:53,087] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})

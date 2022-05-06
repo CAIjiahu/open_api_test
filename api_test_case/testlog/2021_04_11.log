@@ -1,0 +1,305 @@
+[2021-04-11 19:17:34,465] - test_log.py] - INFO: -----测试开始----
+[2021-04-11 19:17:34,465] - test_log.py] - INFO: 输入密码
+[2021-04-11 19:17:34,465] - test_log.py] - WARNING: 测试结束
+[2021-04-11 19:25:18,330] - test_log.py] - INFO: Start to run test case...
+[2021-04-11 19:25:38,074] - test_log.py] - INFO: Start to run test case...
+[2021-04-11 19:25:38,159] - test_log.py] - INFO: Start to write report
+[2021-04-11 19:25:53,256] - test_log.py] - INFO: find latest report...
+[2021-04-11 19:25:53,262] - test_log.py] - INFO: Send function report...
+[2021-04-11 19:25:54,278] - test_log.py] - INFO: The End!
+[2021-04-11 19:29:10,050] - test_log.py] - INFO: Start to run test case...
+[2021-04-11 19:29:10,129] - test_log.py] - INFO: Start to write report
+[2021-04-11 19:29:25,472] - test_log.py] - INFO: find latest report...
+[2021-04-11 19:29:25,472] - test_log.py] - INFO: Send function report...
+[2021-04-11 19:29:38,558] - test_log.py] - INFO: The End!
+[2021-04-11 19:40:37,427] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 19:40:37,427] - test_log.py] - INFO: case2:The parm is true but send more than one campany at one time
+[2021-04-11 19:41:48,841] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 19:41:48,841] - test_log.py] - INFO: case2:The parm is true but send more than one campany at one time
+[2021-04-11 19:41:49,173] - test_log.py] - INFO: {'code': 'Success', 'data': [{'contact': 'mahuateng@qq.com', 'contactChannelList': [{'contactSource': 'kp_email_joint'}], 'contactName': None, 'contactType': 2, 'enterpriseId': '37622fd9ee453f6e', 'financialAgent': False}, {'contact': 'oicq@tencent.com', 'contactChannelList': [{'contactPageLink': 'http://www.qiyeku.com/huangye/13920047', 'contactSource': 'qiyeku'}, {'contactPageLink': 'http://www.czvv.com/huangye/9035792.html', 'contactSource': 'czvv'}], 'contactName': '马**', 'contactType': 2, 'enterpriseId': '37622fd9ee453f6e', 'financialAgent': False}, {'contact': '0755-85448017', 'contactChannelList': [{'contactPageLink': 'http://www.qiyeku.com/huangye/13920047', 'contactSource': 'qiyeku'}], 'contactName': '马**', 'contactType': 1, 'enterpriseId': '37622fd9ee453f6e', 'financialAgent': False}, {'contact': '13329641284', 'contactChannelList': [{'contactPageLink': 'http://mo1284jyq5ls02a.b2b.hc360.com/', 'contactSource': 'hc360'}], 'contactName': None, 'contactType': 0, 'detectNotExists': False, 'enterpriseId': '37622fd9ee453f6e', 'financialAgent': False, 'recommend': False}], 'msgCN': '请求成功', 'total': 4}
+[2021-04-11 19:44:55,971] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 19:44:55,971] - test_log.py] - INFO: case3:The parm is illegal: send a long text
+[2021-04-11 19:44:56,256] - test_log.py] - INFO: {'code': 'ParamsIllegal', 'msgCN': '非法参数'}
+[2021-04-11 19:45:15,539] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 19:45:15,539] - test_log.py] - INFO: case3:The parm is illegal: send a long text
+[2021-04-11 19:45:15,855] - test_log.py] - INFO: {'code': 'ParamsIllegal', 'msgCN': '非法参数'}
+[2021-04-11 19:50:41,300] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 19:50:41,300] - test_log.py] - INFO: case 1:The parm is true
+[2021-04-11 19:50:41,663] - test_log.py] - INFO: (200, {'code': 'Success', 'data': [{'contact': '18922438574', 'contactChannelList': [{'contactPageLink': 'http://m.1688.com/winport/company/b2b-2200615319919acd3d.html', 'contactSource': '1688'}], 'contactName': '田**', 'contactType': 0, 'detectNotExists': False, 'enterpriseId': '37622fe9314536df', 'financialAgent': False, 'recommend': True}], 'msgCN': '请求成功', 'total': 1})
+[2021-04-11 19:58:41,765] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 19:58:41,765] - test_log.py] - INFO: case 1:The parm is true
+[2021-04-11 19:58:42,834] - test_log.py] - INFO: (200, {'code': 'Success', 'data': [{'contact': '18922438574', 'contactChannelList': [{'contactPageLink': 'http://m.1688.com/winport/company/b2b-2200615319919acd3d.html', 'contactSource': '1688'}], 'contactName': '田**', 'contactType': 0, 'detectNotExists': False, 'enterpriseId': '37622fe9314536df', 'financialAgent': False, 'recommend': True}], 'msgCN': '请求成功', 'total': 1})
+[2021-04-11 19:59:56,514] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 19:59:56,514] - test_log.py] - INFO: case3:The parm is illegal: send a long text
+[2021-04-11 19:59:57,015] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-04-11 20:00:21,159] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:00:21,159] - test_log.py] - INFO: case3:The parm is illegal: send a long text
+[2021-04-11 20:00:21,406] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-04-11 20:01:05,978] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:01:05,978] - test_log.py] - INFO: case3:The parm is illegal: send a long text
+[2021-04-11 20:01:06,310] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-04-11 20:08:15,040] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:08:15,040] - test_log.py] - INFO: case4:The parm is illegal: fuzzy search,send a section word of a company name
+[2021-04-11 20:08:15,425] - test_log.py] - INFO: (200, {'code': 'Success', 'data': [], 'msgCN': '请求成功', 'total': 0})
+[2021-04-11 20:11:28,363] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:11:28,363] - test_log.py] - INFO: case 5:The parm is illegal: send no parm
+[2021-04-11 20:11:28,610] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-04-11 20:15:54,736] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:15:54,736] - test_log.py] - INFO: case 6:The parm is illegal: send a string of special character'#$#%%^&^%^%^&%^%☎☏✄☪☣☢☠♨« »큐〓㊚㊛囍㊒㊖☑✔☐☒✘㍿☯☰☷♥♠♤ ♂♀'
+[2021-04-11 20:18:14,991] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:18:14,991] - test_log.py] - INFO: case 7:The parm is illegal: send a string of white space character
+[2021-04-11 20:20:54,018] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:20:54,018] - test_log.py] - INFO: case 7:The parm is illegal: send the word 'NULL'
+[2021-04-11 20:24:39,350] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:24:39,350] - test_log.py] - INFO: case 8:The parm is illegal: send None
+[2021-04-11 20:24:39,620] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-04-11 20:27:09,107] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:27:09,107] - test_log.py] - INFO: case 8:The parm is illegal: send parm with None
+[2021-04-11 20:27:09,345] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-04-11 20:27:34,970] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:27:34,970] - test_log.py] - INFO: case 8:The parm is illegal: send parm with None
+[2021-04-11 20:27:35,202] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-04-11 20:29:02,442] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:29:02,442] - test_log.py] - INFO: case 9:The parm is illegal: send the word 'NULL'
+[2021-04-11 20:29:13,891] - test_log.py] - INFO: (200, {'code': 'Success', 'data': [], 'msgCN': '请求成功', 'total': 0})
+[2021-04-11 20:30:45,668] - test_log.py] - INFO: Start to run test case...
+[2021-04-11 20:30:45,837] - test_log.py] - INFO: Start to write report
+[2021-04-11 20:30:45,837] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:30:45,837] - test_log.py] - INFO: case 7:The parm is illegal: send a string of white space character
+[2021-04-11 20:30:46,084] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-04-11 20:30:49,085] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:30:49,085] - test_log.py] - INFO: case 3:The parm is illegal: send a long text
+[2021-04-11 20:30:49,316] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:30:49,316] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:30:49,332] - test_log.py] - INFO: case 4:The parm is illegal: fuzzy search,send a section word of a company name
+[2021-04-11 20:30:49,554] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:30:49,554] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:30:49,554] - test_log.py] - INFO: case 5:The parm is illegal: send parm with ''
+[2021-04-11 20:30:49,770] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:30:49,770] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:30:49,770] - test_log.py] - INFO: case 8:The parm is illegal: send parm with None
+[2021-04-11 20:30:50,001] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-04-11 20:30:53,001] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:30:53,001] - test_log.py] - INFO: case 9:The parm is illegal: send the word 'NULL'
+[2021-04-11 20:30:53,232] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:30:53,232] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:30:53,232] - test_log.py] - INFO: case 10:The parm is illegal: send the word 'null'
+[2021-04-11 20:30:53,470] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:30:53,470] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:30:53,470] - test_log.py] - INFO: case 1:The parm is true
+[2021-04-11 20:30:53,670] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:30:53,670] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:30:53,670] - test_log.py] - INFO: case 6:The parm is illegal: send a string of special character'#$#%%^&^%^%^&%^%☎☏✄☪☣☢☠♨« »큐〓㊚㊛囍㊒㊖☑✔☐☒✘㍿☯☰☷♥♠♤ ♂♀'
+[2021-04-11 20:30:53,933] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:30:53,933] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:30:53,933] - test_log.py] - INFO: case 2:The parm is true but send more than one campany at one time
+[2021-04-11 20:30:54,171] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:30:54,171] - test_log.py] - INFO: find latest report...
+[2021-04-11 20:30:54,171] - test_log.py] - INFO: Send function report...
+[2021-04-11 20:31:06,048] - test_log.py] - INFO: The End!
+[2021-04-11 20:33:24,961] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:33:24,961] - test_log.py] - INFO: case 3:The parm is illegal: send a long text
+[2021-04-11 20:33:25,278] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-04-11 20:34:51,270] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:34:51,270] - test_log.py] - INFO: case 3:The parm is illegal: send a long text
+[2021-04-11 20:34:51,523] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-04-11 20:35:00,081] - test_log.py] - INFO: Start to run test case...
+[2021-04-11 20:35:00,166] - test_log.py] - INFO: Start to write report
+[2021-04-11 20:35:00,166] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:35:00,166] - test_log.py] - INFO: case 7:The parm is illegal: send a string of white space character
+[2021-04-11 20:35:00,435] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-04-11 20:35:03,437] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:35:03,437] - test_log.py] - INFO: case 3:The parm is illegal: send a long text
+[2021-04-11 20:35:03,668] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:35:03,668] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:35:03,668] - test_log.py] - INFO: case 4:The parm is illegal: fuzzy search,send a section word of a company name
+[2021-04-11 20:35:03,915] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:35:03,915] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:35:03,915] - test_log.py] - INFO: case 5:The parm is illegal: send parm with ''
+[2021-04-11 20:35:04,253] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:35:04,253] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:35:04,253] - test_log.py] - INFO: case 8:The parm is illegal: send parm with None
+[2021-04-11 20:35:04,500] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-04-11 20:35:07,501] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:35:07,501] - test_log.py] - INFO: case 9:The parm is illegal: send the word 'NULL'
+[2021-04-11 20:35:07,723] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:35:07,723] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:35:07,723] - test_log.py] - INFO: case 10:The parm is illegal: send the word 'null'
+[2021-04-11 20:35:07,955] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:35:07,955] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:35:07,955] - test_log.py] - INFO: case 1:The parm is true
+[2021-04-11 20:35:08,202] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:35:08,202] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:35:08,202] - test_log.py] - INFO: case 6:The parm is illegal: send a string of special character'#$#%%^&^%^%^&%^%☎☏✄☪☣☢☠♨« »큐〓㊚㊛囍㊒㊖☑✔☐☒✘㍿☯☰☷♥♠♤ ♂♀'
+[2021-04-11 20:35:08,440] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:35:08,440] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:35:08,440] - test_log.py] - INFO: case 2:The parm is true but send more than one campany at one time
+[2021-04-11 20:35:08,687] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:35:08,687] - test_log.py] - INFO: find latest report...
+[2021-04-11 20:35:08,687] - test_log.py] - INFO: Send function report...
+[2021-04-11 20:35:09,505] - test_log.py] - INFO: The End!
+[2021-04-11 20:40:43,094] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:40:43,094] - test_log.py] - INFO: case 7:The parm is illegal: send a string of white space character
+[2021-04-11 20:40:54,398] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-04-11 20:40:57,404] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:40:57,404] - test_log.py] - INFO: case 3:The parm is illegal: send a long text
+[2021-04-11 20:40:57,626] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:40:57,626] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:40:57,626] - test_log.py] - INFO: case 4:The parm is illegal: fuzzy search,send a section word of a company name
+[2021-04-11 20:40:57,873] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:40:57,873] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:40:57,873] - test_log.py] - INFO: case 5:The parm is illegal: send parm with ''
+[2021-04-11 20:40:58,120] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:40:58,126] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:40:58,126] - test_log.py] - INFO: case 8:The parm is illegal: send parm with None
+[2021-04-11 20:40:58,388] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-04-11 20:41:01,390] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:41:01,390] - test_log.py] - INFO: case 9:The parm is illegal: send the word 'NULL'
+[2021-04-11 20:41:01,621] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:41:01,627] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:41:01,627] - test_log.py] - INFO: case 10:The parm is illegal: send the word 'null'
+[2021-04-11 20:41:01,843] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:41:01,843] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:41:01,843] - test_log.py] - INFO: case 1:The parm is true
+[2021-04-11 20:41:02,058] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:41:02,058] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:41:02,058] - test_log.py] - INFO: case 6:The parm is illegal: send a string of special character'#$#%%^&^%^%^&%^%☎☏✄☪☣☢☠♨« »큐〓㊚㊛囍㊒㊖☑✔☐☒✘㍿☯☰☷♥♠♤ ♂♀'
+[2021-04-11 20:41:02,289] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:41:02,305] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:41:02,305] - test_log.py] - INFO: case 2:The parm is true but send more than one campany at one time
+[2021-04-11 20:41:02,542] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:41:57,970] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:41:57,970] - test_log.py] - INFO: case 9:The parm is illegal: send the word 'NULL'
+[2021-04-11 20:41:58,523] - test_log.py] - INFO: (200, {'code': 'Success', 'data': [], 'msgCN': '请求成功', 'total': 0})
+[2021-04-11 20:44:52,242] - test_log.py] - INFO: Start to run test case...
+[2021-04-11 20:44:52,320] - test_log.py] - INFO: <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<api_test_case.contact_test testMethod=test_contact_black_parm>, <api_test_case.contact_test testMethod=test_contact_long_parm>, <api_test_case.contact_test testMethod=test_contact_mistry_parm>, <api_test_case.contact_test testMethod=test_contact_no_parm>, <api_test_case.contact_test testMethod=test_contact_none_parm>, <api_test_case.contact_test testMethod=test_contact_parm_NULL>, <api_test_case.contact_test testMethod=test_contact_parm_null>, <api_test_case.contact_test testMethod=test_contact_parm_true>, <api_test_case.contact_test testMethod=test_contact_special_parm>, <api_test_case.contact_test testMethod=test_contact_two_parms>]>]>
+[2021-04-11 20:44:52,320] - test_log.py] - INFO: Start to write report
+[2021-04-11 20:44:52,327] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:44:52,327] - test_log.py] - INFO: case 7:The parm is illegal: send a string of white space character
+[2021-04-11 20:44:52,557] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-04-11 20:44:55,558] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:44:55,559] - test_log.py] - INFO: case 3:The parm is illegal: send a long text
+[2021-04-11 20:44:55,791] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:44:55,792] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:44:55,792] - test_log.py] - INFO: case 4:The parm is illegal: fuzzy search,send a section word of a company name
+[2021-04-11 20:44:56,026] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:44:56,027] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:44:56,027] - test_log.py] - INFO: case 5:The parm is illegal: send parm with ''
+[2021-04-11 20:44:56,257] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:44:56,258] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:44:56,258] - test_log.py] - INFO: case 8:The parm is illegal: send parm with None
+[2021-04-11 20:44:56,488] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-04-11 20:44:59,493] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:44:59,493] - test_log.py] - INFO: case 9:The parm is illegal: send the word 'NULL'
+[2021-04-11 20:44:59,749] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:44:59,749] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:44:59,749] - test_log.py] - INFO: case 10:The parm is illegal: send the word 'null'
+[2021-04-11 20:44:59,996] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:44:59,996] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:44:59,996] - test_log.py] - INFO: case 1:The parm is true
+[2021-04-11 20:45:00,212] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:45:00,228] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:45:00,228] - test_log.py] - INFO: case 6:The parm is illegal: send a string of special character'#$#%%^&^%^%^&%^%☎☏✄☪☣☢☠♨« »큐〓㊚㊛囍㊒㊖☑✔☐☒✘㍿☯☰☷♥♠♤ ♂♀'
+[2021-04-11 20:45:00,434] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:45:00,434] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:45:00,434] - test_log.py] - INFO: case 2:The parm is true but send more than one campany at one time
+[2021-04-11 20:45:00,666] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:45:00,666] - test_log.py] - INFO: find latest report...
+[2021-04-11 20:45:00,666] - test_log.py] - INFO: Send function report...
+[2021-04-11 20:45:01,714] - test_log.py] - INFO: The End!
+[2021-04-11 20:46:49,942] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:46:49,942] - test_log.py] - INFO: case 7:The parm is illegal: send a string of white space character
+[2021-04-11 20:46:50,189] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-04-11 20:47:00,196] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:47:00,196] - test_log.py] - INFO: case 3:The parm is illegal: send a long text
+[2021-04-11 20:47:00,418] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:47:00,434] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:47:00,434] - test_log.py] - INFO: case 4:The parm is illegal: fuzzy search,send a section word of a company name
+[2021-04-11 20:47:00,634] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:47:00,634] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:47:00,634] - test_log.py] - INFO: case 5:The parm is illegal: send parm with ''
+[2021-04-11 20:47:00,881] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:47:00,881] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:47:00,881] - test_log.py] - INFO: case 8:The parm is illegal: send parm with None
+[2021-04-11 20:47:01,118] - test_log.py] - INFO: (200, {'code': 'ParamsInvalid', 'msgCN': '缺少必要的必填参数'})
+[2021-04-11 20:47:11,134] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:47:11,134] - test_log.py] - INFO: case 9:The parm is illegal: send the word 'NULL'
+[2021-04-11 20:47:11,365] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:47:11,380] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:47:11,380] - test_log.py] - INFO: case 10:The parm is illegal: send the word 'null'
+[2021-04-11 20:47:11,618] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:47:11,618] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:47:11,618] - test_log.py] - INFO: case 1:The parm is true
+[2021-04-11 20:47:11,834] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:47:11,834] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:47:11,834] - test_log.py] - INFO: case 6:The parm is illegal: send a string of special character'#$#%%^&^%^%^&%^%☎☏✄☪☣☢☠♨« »큐〓㊚㊛囍㊒㊖☑✔☐☒✘㍿☯☰☷♥♠♤ ♂♀'
+[2021-04-11 20:47:12,082] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:47:12,082] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:47:12,082] - test_log.py] - INFO: case 2:The parm is true but send more than one campany at one time
+[2021-04-11 20:47:12,298] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:48:38,770] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:48:38,770] - test_log.py] - INFO: case 3:The parm is illegal: send a long text
+[2021-04-11 20:48:39,021] - test_log.py] - INFO: (200, {'code': 'ParamsIllegal', 'msgCN': '非法参数'})
+[2021-04-11 20:48:49,034] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:48:49,034] - test_log.py] - INFO: case 4:The parm is illegal: fuzzy search,send a section word of a company name
+[2021-04-11 20:48:49,271] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:48:49,271] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:48:49,271] - test_log.py] - INFO: case 5:The parm is illegal: send parm with ''
+[2021-04-11 20:48:49,487] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:48:49,502] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:48:49,502] - test_log.py] - INFO: case 9:The parm is illegal: send the word 'NULL'
+[2021-04-11 20:48:49,718] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:48:49,734] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:48:49,734] - test_log.py] - INFO: case 10:The parm is illegal: send the word 'null'
+[2021-04-11 20:48:49,950] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:48:49,950] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:48:49,950] - test_log.py] - INFO: case 1:The parm is true
+[2021-04-11 20:48:50,219] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:48:50,219] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:48:50,219] - test_log.py] - INFO: case 6:The parm is illegal: send a string of special character'#$#%%^&^%^%^&%^%☎☏✄☪☣☢☠♨« »큐〓㊚㊛囍㊒㊖☑✔☐☒✘㍿☯☰☷♥♠♤ ♂♀'
+[2021-04-11 20:48:50,435] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:48:50,435] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:48:50,435] - test_log.py] - INFO: case 2:The parm is true but send more than one campany at one time
+[2021-04-11 20:48:50,666] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:48:55,996] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:48:55,997] - test_log.py] - INFO: case 4:The parm is illegal: fuzzy search,send a section word of a company name
+[2021-04-11 20:48:56,234] - test_log.py] - INFO: (200, {'code': 'Success', 'data': [], 'msgCN': '请求成功', 'total': 0})
+[2021-04-11 20:49:06,249] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:49:06,249] - test_log.py] - INFO: case 5:The parm is illegal: send parm with ''
+[2021-04-11 20:49:06,617] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:49:06,617] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:49:06,617] - test_log.py] - INFO: case 9:The parm is illegal: send the word 'NULL'
+[2021-04-11 20:49:06,980] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:49:06,980] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:49:06,980] - test_log.py] - INFO: case 10:The parm is illegal: send the word 'null'
+[2021-04-11 20:49:07,296] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:49:07,296] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:49:07,296] - test_log.py] - INFO: case 1:The parm is true
+[2021-04-11 20:49:07,649] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:49:07,649] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:49:07,649] - test_log.py] - INFO: case 6:The parm is illegal: send a string of special character'#$#%%^&^%^%^&%^%☎☏✄☪☣☢☠♨« »큐〓㊚㊛囍㊒㊖☑✔☐☒✘㍿☯☰☷♥♠♤ ♂♀'
+[2021-04-11 20:49:07,934] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:49:07,934] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:49:07,934] - test_log.py] - INFO: case 2:The parm is true but send more than one campany at one time
+[2021-04-11 20:49:08,196] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:50:09,354] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:50:09,354] - test_log.py] - INFO: case 4:The parm is illegal: fuzzy search,send a section word of a company name
+[2021-04-11 20:50:09,608] - test_log.py] - INFO: (200, {'code': 'Success', 'data': [], 'msgCN': '请求成功', 'total': 0})
+[2021-04-11 20:50:09,608] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:50:09,608] - test_log.py] - INFO: case 5:The parm is illegal: send parm with ''
+[2021-04-11 20:50:09,840] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:50:09,840] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:50:09,840] - test_log.py] - INFO: case 9:The parm is illegal: send the word 'NULL'
+[2021-04-11 20:50:10,072] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:50:10,072] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:50:10,087] - test_log.py] - INFO: case 10:The parm is illegal: send the word 'null'
+[2021-04-11 20:50:10,293] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:50:10,293] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:50:10,293] - test_log.py] - INFO: case 1:The parm is true
+[2021-04-11 20:50:10,525] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:50:10,525] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:50:10,525] - test_log.py] - INFO: case 6:The parm is illegal: send a string of special character'#$#%%^&^%^%^&%^%☎☏✄☪☣☢☠♨« »큐〓㊚㊛囍㊒㊖☑✔☐☒✘㍿☯☰☷♥♠♤ ♂♀'
+[2021-04-11 20:50:10,756] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
+[2021-04-11 20:50:10,756] - test_log.py] - INFO: ==============init data==============
+[2021-04-11 20:50:10,756] - test_log.py] - INFO: case 2:The parm is true but send more than one campany at one time
+[2021-04-11 20:50:10,994] - test_log.py] - INFO: (200, {'code': 'SignatureError', 'msgCN': '请求的signature不正确'})
