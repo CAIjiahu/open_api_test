@@ -44,6 +44,10 @@ params = {
 
 
 def signature(secret_key):
+    # params = {
+    #     "accessToken": accessToken,
+    #     "timestamp": datetime.strftime(datetime.utcnow(), '%Y-%m-%dT%H:%M:%S')
+    # }
     keys = sorted(list(params.keys()))
     params_str = ''
     for key in keys:
@@ -55,6 +59,10 @@ def signature(secret_key):
 
 # 获取客户公海列表：
 def pools_with_role():
+    # params = {
+    #     "accessToken": accessToken,
+    #     "timestamp": datetime.strftime(datetime.utcnow(), '%Y-%m-%dT%H:%M:%S')
+    # }
     url = "%s/api/open-api/crm/pools-with-role" % host
     params['signature'] = signature(secretKey)
     print(params)
